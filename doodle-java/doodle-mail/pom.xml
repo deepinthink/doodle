@@ -8,17 +8,11 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-parent/pom.xml</relativePath>
+    <relativePath>../doodle-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-mail</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-build</module>
-    <module>doodle-dependencies</module>
-    <module>doodle-giftpack</module>
-    <module>doodle-login</module>
-    <module>doodle-mail</module>
-    <module>doodle-parent</module>
-    <module>doodle-payment</module>
+    <module>doodle-mail-server</module>
   </modules>
 </project>
