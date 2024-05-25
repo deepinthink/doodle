@@ -13,4 +13,18 @@
   <groupId>org.deepinthink.doodle.component</groupId>
   <artifactId>doodle-login-dependencies</artifactId>
   <packaging>pom</packaging>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-login-autoconfigure</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-login-starter-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>

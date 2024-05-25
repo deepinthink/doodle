@@ -8,14 +8,13 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-framework-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-framework-parent/pom.xml</relativePath>
+    <relativePath>../doodle-framework-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-framework</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-framework-autoconfigure</module>
-    <module>doodle-framework-dependencies</module>
-    <module>doodle-framework-parent</module>
-    <module>doodle-framework-starter</module>
-  </modules>
+  <artifactId>doodle-framework-autoconfigure</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
+  </dependencies>
 </project>
