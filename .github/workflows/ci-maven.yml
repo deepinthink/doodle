@@ -16,5 +16,8 @@ jobs:
           java-version: '17'
           cache: 'maven'
 
+      - name: Check Google codingstyle
+        run: cd buildtools/doodle-maven && ./mvnw spotless:check
+
       - name: Build with Maven wrapper
         run: cd buildtools/doodle-maven && ./mvnw package -B
