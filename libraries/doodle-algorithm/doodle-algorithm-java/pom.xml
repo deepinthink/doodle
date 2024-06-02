@@ -6,18 +6,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-algorithm-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-algorithm-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-algorithm</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-algorithm</module>
-    <module>doodle-build</module>
-    <module>doodle-framework</module>
-    <module>doodle-login</module>
-    <module>doodle-payment</module>
-    <module>doodle-idle</module>
+    <module>doodle-algorithm-dependencies</module>
+    <module>doodle-algorithm-parent</module>
   </modules>
 </project>
