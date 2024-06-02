@@ -16,6 +16,7 @@
     <module>doodle-build</module>
     <module>doodle-framework</module>
     <module>doodle-login</module>
+    <module>doodle-payment</module>
     <module>doodle-idle</module>
   </modules>
 </project>
