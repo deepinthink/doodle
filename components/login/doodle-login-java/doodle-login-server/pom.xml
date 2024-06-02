@@ -13,6 +13,7 @@
   <artifactId>doodle-login-server</artifactId>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+    <start-class>org.deepinthink.doodle.component.login.server.single.LoginServerApplication</start-class>
   </properties>
   <dependencies>
     <dependency>
@@ -25,9 +26,6 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <mainClass>org.deepinthink.doodle.component.login.server.single.LoginServerApplication</mainClass>
-        </configuration>
       </plugin>
     </plugins>
   </build>

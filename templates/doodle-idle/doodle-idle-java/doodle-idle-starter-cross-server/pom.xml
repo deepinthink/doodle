@@ -10,23 +10,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-idle-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-idle-game-server</artifactId>
-  <properties>
-    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
-    <start-class>org.deepinthink.doodle.idle.game.server.single.GameServerApplication</start-class>
-  </properties>
+  <artifactId>doodle-idle-starter-cross-server</artifactId>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle.idle</groupId>
-      <artifactId>doodle-idle-starter-game-server</artifactId>
+      <artifactId>doodle-idle-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-framework-starter</artifactId>
     </dependency>
   </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
 </project>

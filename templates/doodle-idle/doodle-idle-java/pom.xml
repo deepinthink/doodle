@@ -14,9 +14,11 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-idle-autoconfigure</module>
+    <module>doodle-idle-cross-server</module>
     <module>doodle-idle-dependencies</module>
     <module>doodle-idle-game-server</module>
     <module>doodle-idle-parent</module>
+    <module>doodle-idle-starter-cross-server</module>
     <module>doodle-idle-starter-game-server</module>
   </modules>
 </project>

@@ -13,6 +13,7 @@
   <artifactId>doodle-payment-server</artifactId>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+    <start-class>org.deepinthink.doodle.component.payment.server.single.PaymentServerApplication</start-class>
   </properties>
   <dependencies>
     <dependency>
@@ -25,9 +26,6 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <mainClass>org.deepinthink.doodle.component.payment.server.single.PaymentServerApplication</mainClass>
-        </configuration>
       </plugin>
     </plugins>
   </build>
