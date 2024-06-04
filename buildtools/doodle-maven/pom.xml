@@ -18,6 +18,7 @@
     <module>doodle-framework</module>
     <module>doodle-idle</module>
     <module>doodle-login</module>
+    <module>doodle-mail</module>
     <module>doodle-payment</module>
     <module>doodle-pipeline</module>
     <module>doodle-rpc</module>
