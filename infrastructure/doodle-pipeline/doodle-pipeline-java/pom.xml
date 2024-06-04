@@ -6,20 +6,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-pipeline-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-pipeline-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-pipeline</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-algorithm</module>
-    <module>doodle-build</module>
-    <module>doodle-framework</module>
-    <module>doodle-idle</module>
-    <module>doodle-login</module>
-    <module>doodle-payment</module>
-    <module>doodle-pipeline</module>
-    <module>doodle-rpc</module>
+    <module>doodle-pipeline-dependencies</module>
+    <module>doodle-pipeline-parent</module>
   </modules>
 </project>
