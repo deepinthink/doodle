@@ -3,6 +3,7 @@ project(doodle)
 
 add_subdirectory(doodle-algorithm)
 add_subdirectory(doodle-framework)
+add_subdirectory(doodle-giftpack)
 add_subdirectory(doodle-login)
 add_subdirectory(doodle-mail)
 add_subdirectory(doodle-mmorpg)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.deepinthink.doodle.component</groupId>
+    <artifactId>doodle-giftpack-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>doodle-giftpack-parent/pom.xml</relativePath>
+  </parent>
+  <artifactId>doodle-giftpack</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>doodle-giftpack-autoconfigure</module>
+    <module>doodle-giftpack-dependencies</module>
+    <module>doodle-giftpack-parent</module>
+    <module>doodle-giftpack-server</module>
+    <module>doodle-giftpack-starter-server</module>
+  </modules>
+</project>

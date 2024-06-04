@@ -16,6 +16,7 @@
     <module>doodle-algorithm</module>
     <module>doodle-build</module>
     <module>doodle-framework</module>
+    <module>doodle-giftpack</module>
     <module>doodle-idle</module>
     <module>doodle-login</module>
     <module>doodle-mail</module>
