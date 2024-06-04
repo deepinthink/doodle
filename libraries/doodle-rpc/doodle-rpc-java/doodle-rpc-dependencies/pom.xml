@@ -8,17 +8,8 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>../../../../buildtools/doodle-maven/doodle-build/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-rpc-dependencies</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>doodle-algorithm</module>
-    <module>doodle-build</module>
-    <module>doodle-framework</module>
-    <module>doodle-idle</module>
-    <module>doodle-login</module>
-    <module>doodle-payment</module>
-    <module>doodle-rpc</module>
-  </modules>
 </project>
