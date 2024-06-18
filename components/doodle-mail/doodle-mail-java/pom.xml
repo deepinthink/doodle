@@ -14,9 +14,13 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-mail-autoconfigure</module>
+    <module>doodle-mail-client-core</module>
+    <module>doodle-mail-core</module>
     <module>doodle-mail-dependencies</module>
     <module>doodle-mail-parent</module>
     <module>doodle-mail-server</module>
+    <module>doodle-mail-server-core</module>
+    <module>doodle-mail-starter-client</module>
     <module>doodle-mail-starter-server</module>
   </modules>
 </project>

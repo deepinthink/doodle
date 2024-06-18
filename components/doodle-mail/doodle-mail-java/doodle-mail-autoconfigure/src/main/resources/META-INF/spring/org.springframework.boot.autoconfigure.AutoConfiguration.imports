@@ -1,0 +1,2 @@
+org.deepinthink.doodle.component.mail.autoconfigure.MailClientAutoConfiguration
+org.deepinthink.doodle.component.mail.autoconfigure.MailServerAutoConfiguration
