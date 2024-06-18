@@ -23,5 +23,6 @@
     <module>doodle-payment</module>
     <module>doodle-pipeline</module>
     <module>doodle-rpc</module>
+    <module>doodle-sdk</module>
   </modules>
 </project>
