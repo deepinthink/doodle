@@ -10,24 +10,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-login-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-login-autoconfigure</artifactId>
-  <properties>
-    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
-  </properties>
+  <artifactId>doodle-login-starter-client</artifactId>
   <dependencies>
     <dependency>
+      <groupId>org.deepinthink.doodle.component</groupId>
+      <artifactId>doodle-login-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-framework-autoconfigure</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-login-client-core</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-login-server-core</artifactId>
-      <optional>true</optional>
+      <artifactId>doodle-framework-starter</artifactId>
     </dependency>
   </dependencies>
 </project>

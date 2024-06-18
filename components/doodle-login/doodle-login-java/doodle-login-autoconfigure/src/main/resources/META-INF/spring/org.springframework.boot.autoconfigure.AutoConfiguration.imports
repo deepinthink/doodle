@@ -1,0 +1,2 @@
+org.deepinthink.doodle.component.login.autoconfigure.LoginClientAutoConfiguration
+org.deepinthink.doodle.component.login.autoconfigure.LoginServerAutoConfiguration
