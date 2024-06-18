@@ -14,9 +14,13 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-giftpack-autoconfigure</module>
+    <module>doodle-giftpack-client-core</module>
+    <module>doodle-giftpack-core</module>
     <module>doodle-giftpack-dependencies</module>
     <module>doodle-giftpack-parent</module>
     <module>doodle-giftpack-server</module>
+    <module>doodle-giftpack-server-core</module>
+    <module>doodle-giftpack-starter-client</module>
     <module>doodle-giftpack-starter-server</module>
   </modules>
 </project>

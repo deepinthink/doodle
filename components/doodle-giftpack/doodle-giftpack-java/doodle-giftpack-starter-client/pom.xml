@@ -10,21 +10,19 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-giftpack-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-giftpack-autoconfigure</artifactId>
+  <artifactId>doodle-giftpack-starter-client</artifactId>
   <dependencies>
     <dependency>
-      <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-framework-autoconfigure</artifactId>
+      <groupId>org.deepinthink.doodle.component</groupId>
+      <artifactId>doodle-giftpack-autoconfigure</artifactId>
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle.component</groupId>
       <artifactId>doodle-giftpack-client-core</artifactId>
-      <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-giftpack-server-core</artifactId>
-      <optional>true</optional>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-framework-starter</artifactId>
     </dependency>
   </dependencies>
 </project>

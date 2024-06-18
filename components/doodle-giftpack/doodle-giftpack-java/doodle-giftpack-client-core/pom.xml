@@ -10,21 +10,19 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-giftpack-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-giftpack-autoconfigure</artifactId>
+  <artifactId>doodle-giftpack-client-core</artifactId>
+  <properties>
+    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+  </properties>
   <dependencies>
     <dependency>
-      <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-framework-autoconfigure</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-giftpack-client-core</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-giftpack-server-core</artifactId>
-      <optional>true</optional>
+      <artifactId>doodle-giftpack-core</artifactId>
     </dependency>
   </dependencies>
 </project>

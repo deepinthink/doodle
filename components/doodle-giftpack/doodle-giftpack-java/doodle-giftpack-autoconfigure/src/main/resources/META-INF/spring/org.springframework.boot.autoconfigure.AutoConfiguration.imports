@@ -1,0 +1,2 @@
+org.deepinthink.doodle.component.giftpack.autoconfigure.GiftPackClientAutoConfiguration
+org.deepinthink.doodle.component.giftpack.autoconfigure.GiftPackServerAutoConfiguration
