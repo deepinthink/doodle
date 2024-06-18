@@ -1,0 +1,2 @@
+org.deepinthink.doodle.component.payment.autoconfigure.PaymentClientAutoConfiguration
+org.deepinthink.doodle.component.payment.autoconfigure.PaymentServerAutoConfiguration

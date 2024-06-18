@@ -11,10 +11,23 @@
     <relativePath>../doodle-payment-parent/pom.xml</relativePath>
   </parent>
   <artifactId>doodle-payment-autoconfigure</artifactId>
+  <properties>
+    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
       <artifactId>doodle-framework-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle.component</groupId>
+      <artifactId>doodle-payment-client-core</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle.component</groupId>
+      <artifactId>doodle-payment-server-core</artifactId>
+      <optional>true</optional>
     </dependency>
   </dependencies>
 </project>

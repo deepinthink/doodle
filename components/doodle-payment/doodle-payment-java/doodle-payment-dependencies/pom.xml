@@ -22,6 +22,26 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-payment-client-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-payment-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-payment-server-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-payment-starter-client</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-payment-starter-server</artifactId>
         <version>${project.version}</version>
       </dependency>

@@ -10,19 +10,16 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-payment-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-payment-starter-server</artifactId>
+  <artifactId>doodle-payment-server-core</artifactId>
   <dependencies>
     <dependency>
-      <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-payment-autoconfigure</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle.component</groupId>
-      <artifactId>doodle-payment-server-core</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-framework-starter</artifactId>
+      <artifactId>doodle-payment-core</artifactId>
     </dependency>
   </dependencies>
 </project>
