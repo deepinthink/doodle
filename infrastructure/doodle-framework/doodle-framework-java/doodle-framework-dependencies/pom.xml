@@ -12,8 +12,18 @@
   </parent>
   <artifactId>doodle-framework-dependencies</artifactId>
   <packaging>pom</packaging>
+  <properties>
+    <vaadin-spring.version>24.4.6</vaadin-spring.version>
+  </properties>
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>com.vaadin</groupId>
+        <artifactId>vaadin-spring-bom</artifactId>
+        <version>${vaadin-spring.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>doodle-framework-autoconfigure</artifactId>
@@ -22,6 +32,11 @@
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>doodle-framework-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-framework-starter-vaadin</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

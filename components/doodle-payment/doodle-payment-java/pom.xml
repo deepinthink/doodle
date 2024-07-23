@@ -22,5 +22,8 @@
     <module>doodle-payment-server-core</module>
     <module>doodle-payment-starter-client</module>
     <module>doodle-payment-starter-server</module>
+    <module>doodle-payment-starter-vaadin</module>
+    <module>doodle-payment-vaadin</module>
+    <module>doodle-payment-vaadin-core</module>
   </modules>
 </project>

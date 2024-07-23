@@ -32,6 +32,11 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-giftpack-vaadin-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-giftpack-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -43,6 +48,11 @@
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-giftpack-starter-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-giftpack-starter-vaadin</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

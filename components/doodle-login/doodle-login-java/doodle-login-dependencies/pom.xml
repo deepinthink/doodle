@@ -37,12 +37,22 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-login-vaadin-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-login-starter-client</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-login-starter-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-login-starter-vaadin</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

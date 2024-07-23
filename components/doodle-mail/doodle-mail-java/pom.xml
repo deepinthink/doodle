@@ -22,5 +22,8 @@
     <module>doodle-mail-server-core</module>
     <module>doodle-mail-starter-client</module>
     <module>doodle-mail-starter-server</module>
+    <module>doodle-mail-starter-vaadin</module>
+    <module>doodle-mail-vaadin</module>
+    <module>doodle-mail-vaadin-core</module>
   </modules>
 </project>

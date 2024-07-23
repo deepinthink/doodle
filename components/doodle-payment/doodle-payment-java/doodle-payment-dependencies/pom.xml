@@ -37,12 +37,22 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-payment-vaadin-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-payment-starter-client</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle.component</groupId>
         <artifactId>doodle-payment-starter-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle.component</groupId>
+        <artifactId>doodle-payment-starter-vaadin</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

@@ -29,5 +29,10 @@
       <artifactId>doodle-mail-server-core</artifactId>
       <version>${project.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle.component</groupId>
+      <artifactId>doodle-mail-vaadin-core</artifactId>
+      <optional>true</optional>
+    </dependency>
   </dependencies>
 </project>

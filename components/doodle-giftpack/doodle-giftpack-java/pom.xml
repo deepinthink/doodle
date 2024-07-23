@@ -22,5 +22,8 @@
     <module>doodle-giftpack-server-core</module>
     <module>doodle-giftpack-starter-client</module>
     <module>doodle-giftpack-starter-server</module>
+    <module>doodle-giftpack-starter-vaadin</module>
+    <module>doodle-giftpack-vaadin</module>
+    <module>doodle-giftpack-vaadin-core</module>
   </modules>
 </project>

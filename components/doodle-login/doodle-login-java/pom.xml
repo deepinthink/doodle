@@ -22,5 +22,8 @@
     <module>doodle-login-server-core</module>
     <module>doodle-login-starter-client</module>
     <module>doodle-login-starter-server</module>
+    <module>doodle-login-vaadin</module>
+    <module>doodle-login-starter-vaadin</module>
+    <module>doodle-login-vaadin-core</module>
   </modules>
 </project>

@@ -29,5 +29,10 @@
       <artifactId>doodle-giftpack-server-core</artifactId>
       <optional>true</optional>
     </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle.component</groupId>
+      <artifactId>doodle-giftpack-vaadin-core</artifactId>
+      <optional>true</optional>
+    </dependency>
   </dependencies>
 </project>

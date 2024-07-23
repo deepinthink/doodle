@@ -17,5 +17,6 @@
     <module>doodle-framework-dependencies</module>
     <module>doodle-framework-parent</module>
     <module>doodle-framework-starter</module>
+    <module>doodle-framework-starter-vaadin</module>
   </modules>
 </project>
