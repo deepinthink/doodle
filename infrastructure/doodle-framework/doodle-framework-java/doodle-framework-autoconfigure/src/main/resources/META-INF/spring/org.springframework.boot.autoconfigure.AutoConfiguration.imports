@@ -1,0 +1,2 @@
+org.deepinthink.doodle.autoconfigure.vaadin.VaadinAutoConfiguration
+org.deepinthink.doodle.autoconfigure.vaadin.VaadinSecurityAutoConfiguration

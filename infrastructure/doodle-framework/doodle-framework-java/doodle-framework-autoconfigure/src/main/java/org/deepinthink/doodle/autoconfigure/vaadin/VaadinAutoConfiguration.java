@@ -13,15 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.component.giftpack.vaadin.single;
+package org.deepinthink.doodle.autoconfigure.vaadin;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.vaadin.flow.spring.annotation.EnableVaadin;
+import org.deepinthink.doodle.vaadin.VaadinProperties;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-@SpringBootApplication
-public class GiftPackVaadinApplication {
-
-  public static void main(String[] args) {
-    SpringApplication.run(GiftPackVaadinApplication.class, args);
-  }
-}
+@AutoConfiguration
+@EnableVaadin(VaadinProperties.PREFIX_VIEW)
+@EnableConfigurationProperties(VaadinProperties.class)
+public class VaadinAutoConfiguration {}

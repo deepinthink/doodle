@@ -13,15 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.component.giftpack.vaadin.single;
+package org.deepinthink.doodle.vaadin;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import lombok.AccessLevel;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.FieldDefaults;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@SpringBootApplication
-public class GiftPackVaadinApplication {
+@RequiredArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
+@ConfigurationProperties(prefix = VaadinProperties.PREFIX)
+public class VaadinProperties {
+  public static final String PREFIX = "doodle.vaadin";
 
-  public static void main(String[] args) {
-    SpringApplication.run(GiftPackVaadinApplication.class, args);
-  }
+  public static final String PREFIX_VIEW = "org.deepinthink.doodle.vaadin.views";
 }

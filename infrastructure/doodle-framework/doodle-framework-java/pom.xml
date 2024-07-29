@@ -18,5 +18,6 @@
     <module>doodle-framework-parent</module>
     <module>doodle-framework-starter</module>
     <module>doodle-framework-starter-vaadin</module>
+    <module>doodle-framework-vaadin-core</module>
   </modules>
 </project>

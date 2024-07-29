@@ -10,33 +10,23 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-framework-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-framework-autoconfigure</artifactId>
+  <artifactId>doodle-framework-vaadin-core</artifactId>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
   </properties>
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-autoconfigure</artifactId>
+      <artifactId>spring-boot</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-framework-vaadin-core</artifactId>
-      <optional>true</optional>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>com.vaadin</groupId>
-      <artifactId>vaadin-spring</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-config</artifactId>
       <optional>true</optional>
     </dependency>
   </dependencies>

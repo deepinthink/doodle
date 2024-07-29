@@ -13,15 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.component.giftpack.vaadin.single;
+package org.deepinthink.doodle.vaadin.views;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.vaadin.flow.component.applayout.AppLayout;
+import lombok.AccessLevel;
+import lombok.experimental.FieldDefaults;
 
-@SpringBootApplication
-public class GiftPackVaadinApplication {
-
-  public static void main(String[] args) {
-    SpringApplication.run(GiftPackVaadinApplication.class, args);
-  }
-}
+@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
+public class MainLayout extends AppLayout {}
