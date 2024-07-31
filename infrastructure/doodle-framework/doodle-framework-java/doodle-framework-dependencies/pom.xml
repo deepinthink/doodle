@@ -31,7 +31,17 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-framework-rbac-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>doodle-framework-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-framework-starter-rbac</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

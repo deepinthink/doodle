@@ -1,2 +1,5 @@
+org.deepinthink.doodle.autoconfigure.rbac.RbacDataAutoConfiguration
+org.deepinthink.doodle.autoconfigure.rbac.RbacVaadinAutoConfiguration
+
 org.deepinthink.doodle.autoconfigure.vaadin.VaadinAutoConfiguration
 org.deepinthink.doodle.autoconfigure.vaadin.VaadinSecurityAutoConfiguration

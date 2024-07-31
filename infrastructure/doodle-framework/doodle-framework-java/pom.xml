@@ -16,7 +16,9 @@
     <module>doodle-framework-autoconfigure</module>
     <module>doodle-framework-dependencies</module>
     <module>doodle-framework-parent</module>
+    <module>doodle-framework-rbac-core</module>
     <module>doodle-framework-starter</module>
+    <module>doodle-framework-starter-rbac</module>
     <module>doodle-framework-starter-vaadin</module>
     <module>doodle-framework-vaadin-core</module>
   </modules>

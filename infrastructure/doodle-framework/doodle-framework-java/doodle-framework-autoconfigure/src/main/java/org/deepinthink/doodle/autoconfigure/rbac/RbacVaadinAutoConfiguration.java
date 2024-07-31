@@ -13,16 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.autoconfigure.vaadin;
+package org.deepinthink.doodle.autoconfigure.rbac;
 
-import com.vaadin.flow.spring.annotation.EnableVaadin;
-import org.deepinthink.doodle.vaadin.VaadinProperties;
+import org.deepinthink.doodle.autoconfigure.vaadin.VaadinAutoConfiguration;
+import org.deepinthink.doodle.rbac.RbacProperties;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-@AutoConfiguration
-@EnableVaadin(VaadinProperties.PREFIX_VIEW)
-@ConditionalOnClass(VaadinProperties.class)
-@EnableConfigurationProperties(VaadinProperties.class)
-public class VaadinAutoConfiguration {}
+@AutoConfiguration(before = VaadinAutoConfiguration.class)
+@ConditionalOnClass(RbacProperties.class)
+@EnableConfigurationProperties(RbacProperties.class)
+public class RbacVaadinAutoConfiguration {}

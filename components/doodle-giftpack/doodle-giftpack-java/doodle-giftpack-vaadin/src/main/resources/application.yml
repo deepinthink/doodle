@@ -1,3 +1,8 @@
 spring:
   application:
     name: giftpack-vaadin
+
+  data:
+    mongodb:
+      uri: mongodb://admin:admin@localhost:27017
+      database: giftpack
