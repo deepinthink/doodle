@@ -17,3 +17,6 @@ cmake-build-debug
 
 # Vaadin
 frontend/
+
+# CMake
+build/

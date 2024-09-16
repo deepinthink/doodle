@@ -15,6 +15,7 @@
   <modules>
     <module>doodle-framework-autoconfigure</module>
     <module>doodle-framework-dependencies</module>
+    <module>doodle-framework-faketime-core</module>
     <module>doodle-framework-parent</module>
     <module>doodle-framework-rbac-core</module>
     <module>doodle-framework-starter</module>

@@ -31,6 +31,11 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-framework-faketime-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>doodle-framework-rbac-core</artifactId>
         <version>${project.version}</version>
       </dependency>
