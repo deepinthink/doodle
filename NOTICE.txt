@@ -8,3 +8,7 @@ This product includes software from the Spring project (Apache-2.0).
 This product includes software from the Vaadin project (Apache-2.0).
 * Copyright 2000-2024 Vaadin Ltd.
 * https://github.com/vaadin
+
+This product includes software from the yomorun/hashids-java project (MIT).
+* Copyright (c) 2014 fanweixiao.
+* https://github.com/yomorun/hashids-java
