@@ -6,14 +6,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-payment-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-payment-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-payment</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-build</module>
-    <module>doodle-payment</module>
+    <module>doodle-payment-autoconfigure</module>
+    <module>doodle-payment-dependencies</module>
+    <module>doodle-payment-parent</module>
   </modules>
 </project>
