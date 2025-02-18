@@ -6,14 +6,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-boot-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>../doodle-boot-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-boot</module>
-    <module>doodle-build</module>
-  </modules>
+  <artifactId>doodle-boot-autoconfigure</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
+  </dependencies>
 </project>
