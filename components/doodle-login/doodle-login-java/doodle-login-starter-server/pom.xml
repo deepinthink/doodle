@@ -8,15 +8,17 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-login-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-login-parent/pom.xml</relativePath>
+    <relativePath>../doodle-login-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-login</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-login-autoconfigure</module>
-    <module>doodle-login-dependencies</module>
-    <module>doodle-login-parent</module>
-    <module>doodle-login-server</module>
-    <module>doodle-login-starter-server</module>
-  </modules>
+  <artifactId>doodle-login-starter-server</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-login-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-boot-starter</artifactId>
+    </dependency>
+  </dependencies>
 </project>
