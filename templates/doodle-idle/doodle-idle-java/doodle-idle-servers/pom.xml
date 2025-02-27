@@ -16,5 +16,6 @@
     <module>doodle-idle-cross-server</module>
     <module>doodle-idle-game-server</module>
     <module>doodle-idle-login-server</module>
+    <module>doodle-idle-payment-server</module>
   </modules>
 </project>
