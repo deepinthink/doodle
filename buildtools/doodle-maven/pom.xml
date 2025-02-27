@@ -15,10 +15,7 @@
   <modules>
     <module>doodle-boot</module>
     <module>doodle-build</module>
-    <module>doodle-idle</module>
     <module>doodle-login</module>
     <module>doodle-payment</module>
-    <module>doodle-rpg</module>
-    <module>doodle-slg</module>
   </modules>
 </project>
