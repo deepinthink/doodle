@@ -11,7 +11,6 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>doodle-rpg-config-server</artifactId>
-  <packaging>pom</packaging>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
     <start-class>org.deepinthink.doodle.rpg.config.server.single.ConfigServerApplication</start-class>

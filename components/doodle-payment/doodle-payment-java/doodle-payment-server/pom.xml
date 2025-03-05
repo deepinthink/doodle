@@ -6,19 +6,19 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-rpg-servers</artifactId>
+    <artifactId>doodle-payment-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+    <relativePath>../doodle-payment-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-rpg-login-server</artifactId>
+  <artifactId>doodle-payment-server</artifactId>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
-    <start-class>org.deepinthink.doodle.rpg.login.server.single.LoginServerApplication</start-class>
+    <start-class>org.deepinthink.doodle.payment.server.single.PaymentServerApplication</start-class>
   </properties>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-login-starter-server</artifactId>
+      <artifactId>doodle-payment-starter-server</artifactId>
     </dependency>
   </dependencies>
   <build>

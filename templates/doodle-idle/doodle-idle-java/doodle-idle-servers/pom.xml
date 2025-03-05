@@ -15,5 +15,6 @@
   <modules>
     <module>doodle-idle-config-server</module>
     <module>doodle-idle-login-server</module>
+    <module>doodle-idle-payment-server</module>
   </modules>
 </project>
