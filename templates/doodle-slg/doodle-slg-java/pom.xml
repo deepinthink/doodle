@@ -16,5 +16,6 @@
     <module>doodle-slg-autoconfigure</module>
     <module>doodle-slg-dependencies</module>
     <module>doodle-slg-parent</module>
+    <module>doodle-slg-servers</module>
   </modules>
 </project>

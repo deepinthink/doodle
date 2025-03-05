@@ -10,7 +10,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-login-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-login-autologinure</artifactId>
+  <artifactId>doodle-login-autoconfigure</artifactId>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>

@@ -6,21 +6,19 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-rpg-parent</artifactId>
+    <artifactId>doodle-login-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../doodle-rpg-parent/pom.xml</relativePath>
+    <relativePath>../doodle-login-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-rpg-autoconfigure</artifactId>
-  <properties>
-    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
-    <spotless.license-header.file>
-      ${project.basedir}/../../../../buildtools/doodle-maven/src/checkstyle/license-header.txt
-    </spotless.license-header.file>
-  </properties>
+  <artifactId>doodle-login-starter-server</artifactId>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-boot-autoconfigure</artifactId>
+      <artifactId>doodle-login-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-boot-starter</artifactId>
     </dependency>
   </dependencies>
 </project>

@@ -10,17 +10,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-rpg-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-rpg-autoconfigure</artifactId>
-  <properties>
-    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
-    <spotless.license-header.file>
-      ${project.basedir}/../../../../buildtools/doodle-maven/src/checkstyle/license-header.txt
-    </spotless.license-header.file>
-  </properties>
-  <dependencies>
-    <dependency>
-      <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>doodle-boot-autoconfigure</artifactId>
-    </dependency>
-  </dependencies>
+  <artifactId>doodle-rpg-servers</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>doodle-rpg-login-server</module>
+  </modules>
 </project>

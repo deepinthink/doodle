@@ -16,7 +16,12 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>doodle-login-autologinure</artifactId>
+        <artifactId>doodle-login-autoconfigure</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-login-starter-server</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

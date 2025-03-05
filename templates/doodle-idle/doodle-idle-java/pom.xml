@@ -16,5 +16,6 @@
     <module>doodle-idle-autoconfigure</module>
     <module>doodle-idle-dependencies</module>
     <module>doodle-idle-parent</module>
+    <module>doodle-idle-servers</module>
   </modules>
 </project>

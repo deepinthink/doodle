@@ -16,5 +16,6 @@
     <module>doodle-rpg-autoconfigure</module>
     <module>doodle-rpg-dependencies</module>
     <module>doodle-rpg-parent</module>
+    <module>doodle-rpg-servers</module>
   </modules>
 </project>
