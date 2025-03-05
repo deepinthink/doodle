@@ -6,15 +6,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-idle-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>../doodle-idle-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-boot</module>
-    <module>doodle-build</module>
-    <module>doodle-idle</module>
-  </modules>
+  <artifactId>doodle-idle-autoconfigure</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-boot-autoconfigure</artifactId>
+    </dependency>
+  </dependencies>
 </project>
