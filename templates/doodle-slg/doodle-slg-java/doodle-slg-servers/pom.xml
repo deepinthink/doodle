@@ -13,6 +13,7 @@
   <artifactId>doodle-slg-servers</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-slg-config-server</module>
     <module>doodle-slg-login-server</module>
   </modules>
 </project>

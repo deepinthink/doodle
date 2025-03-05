@@ -8,15 +8,17 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-config-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-config-parent/pom.xml</relativePath>
+    <relativePath>../doodle-config-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-config</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-config-autoconfigure</module>
-    <module>doodle-config-dependencies</module>
-    <module>doodle-config-parent</module>
-    <module>doodle-config-server</module>
-    <module>doodle-config-starter-server</module>
-  </modules>
+  <artifactId>doodle-config-starter-server</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-config-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-boot-starter</artifactId>
+    </dependency>
+  </dependencies>
 </project>

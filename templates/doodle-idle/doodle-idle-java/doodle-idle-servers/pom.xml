@@ -13,6 +13,7 @@
   <artifactId>doodle-idle-servers</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-idle-config-server</module>
     <module>doodle-idle-login-server</module>
   </modules>
 </project>

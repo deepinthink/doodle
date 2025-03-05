@@ -28,6 +28,13 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-config-dependencies</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>doodle-login-dependencies</artifactId>
         <version>${project.version}</version>
         <type>pom</type>

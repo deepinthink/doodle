@@ -13,6 +13,7 @@
   <artifactId>doodle-rpg-servers</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-rpg-config-server</module>
     <module>doodle-rpg-login-server</module>
   </modules>
 </project>
