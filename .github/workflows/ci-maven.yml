@@ -16,6 +16,15 @@ jobs:
           java-version: '17'
           cache: 'maven'
 
+      - name: Checkout Ginga 
+        uses: actions/checkout@v3
+        with:
+          repository: deepinthink/ginga
+          path: deepinthink/ginga
+
+      - name: Install Ginga
+        run: cd deepinthink/ginga/buildtools/ginga-maven && ./mvnw install
+
       - name: Check Google codingstyle
         run: cd buildtools/doodle-maven && ./mvnw spotless:check
 

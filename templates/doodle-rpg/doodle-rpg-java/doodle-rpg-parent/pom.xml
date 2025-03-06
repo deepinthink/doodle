@@ -19,16 +19,16 @@
   </properties>
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>doodle-boot-dependencies</artifactId>
+     <dependency>
+        <groupId>org.deepinthink.ginga</groupId>
+        <artifactId>ginga-config-dependencies</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>doodle-config-dependencies</artifactId>
+        <artifactId>doodle-boot-dependencies</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
