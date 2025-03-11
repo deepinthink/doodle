@@ -15,6 +15,7 @@
   <modules>
     <module>doodle-boot</module>
     <module>doodle-build</module>
+    <module>doodle-excel</module>
     <module>doodle-idle</module>
     <module>doodle-login</module>
     <module>doodle-payment</module>

@@ -14,6 +14,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-slg-config-server</module>
+    <module>doodle-slg-excel-server</module>
     <module>doodle-slg-login-server</module>
     <module>doodle-slg-payment-server</module>
   </modules>

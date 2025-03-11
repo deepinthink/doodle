@@ -14,6 +14,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-rpg-config-server</module>
+    <module>doodle-rpg-excel-server</module>
     <module>doodle-rpg-login-server</module>
     <module>doodle-rpg-payment-server</module>
   </modules>

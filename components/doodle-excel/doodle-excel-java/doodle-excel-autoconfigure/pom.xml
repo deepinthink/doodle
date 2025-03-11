@@ -6,16 +6,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-idle-parent</artifactId>
+    <artifactId>doodle-excel-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../doodle-idle-parent/pom.xml</relativePath>
+    <relativePath>../doodle-excel-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-idle-servers</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-idle-config-server</module>
-    <module>doodle-idle-excel-server</module>
-    <module>doodle-idle-login-server</module>
-    <module>doodle-idle-payment-server</module>
-  </modules>
+  <artifactId>doodle-excel-autoconfigure</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-boot-autoconfigure</artifactId>
+    </dependency>
+  </dependencies>
 </project>
