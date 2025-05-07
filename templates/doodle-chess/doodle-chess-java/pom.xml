@@ -6,14 +6,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-chess-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-chess-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-chess</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-build</module>
-    <module>doodle-chess</module>
+    <module>doodle-chess-dependencies</module>
+    <module>doodle-chess-parent</module>
   </modules>
 </project>
