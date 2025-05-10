@@ -12,4 +12,18 @@
   </parent>
   <artifactId>doodle-idle-dependencies</artifactId>
   <packaging>pom</packaging>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-idle-autoconfigure</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>doodle-idle-starter-game-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
