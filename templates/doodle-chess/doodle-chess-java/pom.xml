@@ -13,7 +13,10 @@
   <artifactId>doodle-chess</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-chess-autoconfigure</module>
     <module>doodle-chess-dependencies</module>
+    <module>doodle-chess-lobby</module>
     <module>doodle-chess-parent</module>
+    <module>doodle-chess-servers</module>
   </modules>
 </project>
