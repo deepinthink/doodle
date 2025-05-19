@@ -8,12 +8,8 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>../../../../buildtools/doodle-java/doodle-build/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-users-dependencies</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>doodle-build</module>
-    <module>doodle-users</module>
-  </modules>
 </project>

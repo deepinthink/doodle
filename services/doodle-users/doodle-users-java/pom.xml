@@ -6,14 +6,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-users-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-users-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-users</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-build</module>
-    <module>doodle-users</module>
+    <module>doodle-users-dependencies</module>
+    <module>doodle-users-parent</module>
   </modules>
 </project>
