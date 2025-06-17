@@ -5,15 +5,15 @@
          http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-chess-boot-parent</artifactId>
+    <groupId>org.deepinthink.doodle.chess.boot</groupId>
+    <artifactId>doodle-chess-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-chess-boot-parent/pom.xml</relativePath>
+    <relativePath>doodle-chess-parent/pom.xml</relativePath>
   </parent>
   <artifactId>doodle-chess-boot</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-chess-boot-dependencies</module>
-    <module>doodle-chess-boot-parent</module>
+    <module>doodle-chess-dependencies</module>
+    <module>doodle-chess-parent</module>
   </modules>
 </project>
