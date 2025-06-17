@@ -10,6 +10,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../../../../buildtools/doodle-java/doodle-build/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-chess-dependencies</artifactId>
+  <artifactId>doodle-chess-boot-dependencies</artifactId>
   <packaging>pom</packaging>
 </project>
