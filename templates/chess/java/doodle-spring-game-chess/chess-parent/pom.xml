@@ -15,6 +15,7 @@
     <spring-boot.version>4.0.0</spring-boot.version>
     <spring-game.version>2026.5.0-SNAPSHOT</spring-game.version>
     <specification-component.version>2026.5.0-SNAPSHOT</specification-component.version>
+    <spring-game-component.version>2026.5.0-SNAPSHOT</spring-game-component.version>
     <specification-service.version>2026.5.0-SNAPSHOT</specification-service.version>
     <spring-game-service.version>2026.5.0-SNAPSHOT</spring-game-service.version>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
@@ -53,6 +54,13 @@
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>specification-component-dependencies</artifactId>
         <version>${specification-component.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-dependencies</artifactId>
+        <version>${spring-game-component.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
