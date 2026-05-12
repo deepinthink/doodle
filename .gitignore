@@ -4,6 +4,8 @@
 # Jetbrains IDEA
 .idea/
 *.iml
+!tools/ide-support/java/doodle-idea/.idea/
+!tools/ide-support/java/doodle-idea/doodle-idea.iml
 
 # Apache Maven
 target/

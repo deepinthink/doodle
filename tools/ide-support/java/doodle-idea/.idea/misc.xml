@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/component/java/doodle-specification-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
