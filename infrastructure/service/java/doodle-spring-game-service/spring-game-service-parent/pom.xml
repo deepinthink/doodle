@@ -8,13 +8,12 @@
     <relativePath/>
   </parent>
   <groupId>org.deepinthink.doodle</groupId>
-  <artifactId>chess-parent</artifactId>
+  <artifactId>spring-game-service-parent</artifactId>
   <packaging>pom</packaging>
   <properties>
     <amoeba.version>2026.5.0-SNAPSHOT</amoeba.version>
     <spring-boot.version>4.0.0</spring-boot.version>
     <spring-game.version>2026.5.0-SNAPSHOT</spring-game.version>
-    <spring-game-service.version>2026.5.0-SNAPSHOT</spring-game-service.version>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
   <dependencyManagement>
@@ -50,35 +49,10 @@
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-service-dependencies</artifactId>
-        <version>${spring-game-service.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>chess-dependencies</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>${spring-boot.version}</version>
-          <executions>
-            <execution>
-              <goals>
-                <goal>repackage</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 </project>
