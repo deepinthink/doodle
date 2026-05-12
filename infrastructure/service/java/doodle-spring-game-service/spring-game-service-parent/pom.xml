@@ -14,6 +14,7 @@
     <amoeba.version>2026.5.0-SNAPSHOT</amoeba.version>
     <spring-boot.version>4.0.0</spring-boot.version>
     <spring-game.version>2026.5.0-SNAPSHOT</spring-game.version>
+    <specification-service.version>2026.5.0-SNAPSHOT</specification-service.version>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
   <dependencyManagement>
@@ -43,6 +44,13 @@
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-dependencies</artifactId>
         <version>${spring-game.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>specification-service-dependencies</artifactId>
+        <version>${specification-service.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
