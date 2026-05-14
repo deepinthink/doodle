@@ -8,7 +8,6 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>spring-game-service-starter-login-server</artifactId>
-  <packaging>pom</packaging>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
