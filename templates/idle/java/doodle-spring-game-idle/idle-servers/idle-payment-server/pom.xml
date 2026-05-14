@@ -3,19 +3,19 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>chess-servers</artifactId>
+    <artifactId>idle-servers</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>chess-lobby-server</artifactId>
+  <artifactId>idle-payment-server</artifactId>
   <properties>
-    <start.class>org.deepinthink.doodle.spring.game.chess.lobby.server.single.LobbyServerApplication</start.class>
+    <start.class>org.deepinthink.doodle.spring.game.idle.payment.server.single.PaymentServerApplication</start.class>
     <spotless.license-header.file>${project.basedir}/../../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-starter</artifactId>
+      <artifactId>spring-game-service-starter-payment-server</artifactId>
     </dependency>
   </dependencies>
   <build>
