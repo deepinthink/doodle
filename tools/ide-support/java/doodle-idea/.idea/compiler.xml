@@ -9,9 +9,15 @@
         <module name="chess-lobby-server" />
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter" />
-        <module name="spring-game" />
+        <module name="specification-service-login" />
+        <module name="idle-login-server" />
         <module name="idle-game-server" />
+        <module name="chess-login-server" />
+        <module name="spring-game" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-game-service-login-server" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

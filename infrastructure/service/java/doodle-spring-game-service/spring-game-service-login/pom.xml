@@ -3,14 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>idle-parent</artifactId>
+    <artifactId>spring-game-service-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>../idle-parent/pom.xml</relativePath>
+    <relativePath>../spring-game-service-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>idle-servers</artifactId>
+  <artifactId>spring-game-service-login</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>idle-game-server</module>
-    <module>idle-login-server</module>
-  </modules>
 </project>

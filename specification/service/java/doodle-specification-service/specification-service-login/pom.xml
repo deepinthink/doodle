@@ -3,14 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>idle-parent</artifactId>
+    <artifactId>specification-service-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>../idle-parent/pom.xml</relativePath>
+    <relativePath>../specification-service-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>idle-servers</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>idle-game-server</module>
-    <module>idle-login-server</module>
-  </modules>
+  <artifactId>specification-service-login</artifactId>
+  <properties>
+    <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
+  </properties>
 </project>

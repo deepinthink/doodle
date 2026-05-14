@@ -11,6 +11,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>specification-service-dependencies</module>
+    <module>specification-service-login</module>
     <module>specification-service-parent</module>
   </modules>
   <properties>
