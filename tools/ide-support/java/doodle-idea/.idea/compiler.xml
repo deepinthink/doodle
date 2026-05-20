@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chess-lobby-server" />
-        <module name="specification-service-login" />
         <module name="spring-game-service-starter-login-server" />
         <module name="idle-payment-server" />
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter" />
         <module name="idle-login-server" />
+        <module name="specification-service-login-proto" />
         <module name="idle-game-server" />
         <module name="chess-payment-server" />
         <module name="chess-login-server" />

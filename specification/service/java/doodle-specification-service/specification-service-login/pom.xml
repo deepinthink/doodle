@@ -8,6 +8,10 @@
     <relativePath>../specification-service-parent/pom.xml</relativePath>
   </parent>
   <artifactId>specification-service-login</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>specification-service-login-proto</module>
+  </modules>
   <properties>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
