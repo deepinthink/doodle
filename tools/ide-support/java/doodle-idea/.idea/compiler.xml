@@ -10,6 +10,7 @@
         <module name="specification-service-payment-proto" />
         <module name="spring-game-service-starter-login-server" />
         <module name="idle-payment-server" />
+        <module name="idle-game-proto" />
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter" />
         <module name="chess-lobby-proto" />
