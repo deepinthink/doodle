@@ -23,7 +23,7 @@
         <groupId>org.xolstice.maven.plugins</groupId>
         <artifactId>protobuf-maven-plugin</artifactId>
         <configuration>
-          <protoSourceRoot>${project.basedir}/../../../../proto/org/deepinthink/doodle/service/login</protoSourceRoot>
+          <protoSourceRoot>${project.basedir}/../../../../proto/org/deepinthink/doodle/specification/service/login</protoSourceRoot>
         </configuration>
       </plugin>
     </plugins>
