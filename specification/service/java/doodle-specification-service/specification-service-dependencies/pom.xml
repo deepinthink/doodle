@@ -17,6 +17,11 @@
         <artifactId>specification-service-login-proto</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>specification-service-payment-proto</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
