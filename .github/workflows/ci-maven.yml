@@ -34,3 +34,6 @@ jobs:
 
       - name: Build && Install doodle-spring-game
         run: cd infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
+
+      - name: Build && Install doodle-specification-component
+        run: cd specification/component/java/doodle-specification-component && ./mvnw install -B
