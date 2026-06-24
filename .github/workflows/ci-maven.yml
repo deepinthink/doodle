@@ -38,6 +38,9 @@ jobs:
       - name: Build && Install doodle-specification-component
         run: cd specification/component/java/doodle-specification-component && ./mvnw install -B
 
+      - name: Build && Install doodle-specification-game
+        run: cd specification/game/java/doodle-specification-game && ./mvnw install -B
+
       - name: Build && Install doodle-specification-service
         run: cd specification/service/java/doodle-specification-service && ./mvnw install -B
 
