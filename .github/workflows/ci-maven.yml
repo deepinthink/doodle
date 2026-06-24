@@ -53,3 +53,6 @@ jobs:
       - name: Build && Install doodle-spring-game-chess
         run: cd templates/chess/java/doodle-spring-game-chess && ./mvnw install -B
 
+      - name: Build && Install doodle-spring-game-idle
+        run: cd templates/idle/java/doodle-spring-game-idle && ./mvnw install -B
+
