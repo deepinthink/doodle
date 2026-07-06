@@ -1,2 +1,2 @@
-# Doodle
+# Doodle [![CI Maven](https://github.com/deepinthink/doodle/actions/workflows/ci-maven.yml/badge.svg)](https://github.com/deepinthink/doodle/actions/workflows/ci-maven.yml)
 Community-driven open-source Game development solutions.
