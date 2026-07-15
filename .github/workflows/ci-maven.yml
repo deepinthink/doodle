@@ -55,3 +55,6 @@ jobs:
 
       - name: Build && Install doodle-spring-game-idle
         run: cd templates/idle/java/doodle-spring-game-idle && ./mvnw install -B
+
+      - name: Build && Install doodle-benchmark
+        run: cd templates/benchmark/java/doodle-benchmark && ./mvnw install -B
