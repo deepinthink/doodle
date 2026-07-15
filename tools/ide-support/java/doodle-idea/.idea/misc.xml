@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/specification/component/java/blink-specification-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/specification/im/java/blink-specification-im/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/infrastructure/component/java/blink-spring-im-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/infrastructure/framework/java/blink-spring-im/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/templates/benchmark/java/blink-benchmark/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/templates/chat/java/blink-spring-im-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/templates/talk/java/blink-spring-im-talk/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="25" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
