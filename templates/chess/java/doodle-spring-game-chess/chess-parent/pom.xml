@@ -12,9 +12,7 @@
   <packaging>pom</packaging>
   <properties>
     <amoeba.version>2026.5.0-SNAPSHOT</amoeba.version>
-    <doodle.spring-game.version>2026.5.0-SNAPSHOT</doodle.spring-game.version>
-    <doodle.spring-game-component.version>2026.5.0-SNAPSHOT</doodle.spring-game-component.version>
-    <doodle.spring-game-service.version>2026.5.0-SNAPSHOT</doodle.spring-game-service.version>
+    <doodle.version>2026.5.0-SNAPSHOT</doodle.version>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
   <dependencyManagement>
@@ -36,28 +34,28 @@
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-dependencies</artifactId>
-        <version>${doodle.spring-game.version}</version>
+        <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-component-dependencies</artifactId>
-        <version>${doodle.spring-game-component.version}</version>
+        <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-service-dependencies</artifactId>
-        <version>${doodle.spring-game-service.version}</version>
+        <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>chess-dependencies</artifactId>
-        <version>${project.version}</version>
+        <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>

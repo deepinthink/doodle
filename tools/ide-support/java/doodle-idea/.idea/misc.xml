@@ -4,13 +4,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/specification/component/java/blink-specification-component/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/specification/im/java/blink-specification-im/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/infrastructure/component/java/blink-spring-im-component/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/infrastructure/framework/java/blink-spring-im/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/templates/benchmark/java/blink-benchmark/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/templates/chat/java/blink-spring-im-chat/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../deepinthink-blink/templates/talk/java/blink-spring-im-talk/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/component/java/doodle-specification-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/game/java/doodle-specification-game/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../templates/benchmark/java/doodle-benchmark/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../initializr/java/doodle-initializr/pom.xml" />
       </list>
     </option>
   </component>

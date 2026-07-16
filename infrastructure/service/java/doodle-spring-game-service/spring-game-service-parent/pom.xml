@@ -12,7 +12,7 @@
   <packaging>pom</packaging>
   <properties>
     <amoeba.version>2026.5.0-SNAPSHOT</amoeba.version>
-    <doodle.spring-game.version>2026.5.0-SNAPSHOT</doodle.spring-game.version>
+    <doodle.version>2026.5.0-SNAPSHOT</doodle.version>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
   <dependencyManagement>
@@ -34,7 +34,7 @@
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-dependencies</artifactId>
-        <version>${doodle.spring-game.version}</version>
+        <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
