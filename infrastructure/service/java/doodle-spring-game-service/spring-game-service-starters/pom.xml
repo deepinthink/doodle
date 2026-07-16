@@ -9,4 +9,7 @@
   </parent>
   <artifactId>spring-game-service-starters</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-service-starter-login-server</module>
+  </modules>
 </project>
