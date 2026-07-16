@@ -47,6 +47,13 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-service-dependencies</artifactId>
+        <version>${doodle.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>idle-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>

@@ -9,9 +9,37 @@
         <module name="chess-lobby-server" />
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter" />
-        <module name="spring-game" />
+        <module name="idle-login-server" />
         <module name="idle-game-server" />
+        <module name="spring-game-service-starter-login-server" />
+        <module name="chess-login-server" />
+        <module name="spring-game" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blink-benchmark" target="25" />
+      <module name="blink-specification-component" target="25" />
+      <module name="blink-specification-im" target="25" />
+      <module name="blink-spring-im" target="25" />
+      <module name="blink-spring-im-chat" target="25" />
+      <module name="blink-spring-im-component" target="25" />
+      <module name="blink-spring-im-talk" target="25" />
+      <module name="chat-dependencies" target="25" />
+      <module name="chat-parent" target="25" />
+      <module name="specification-im-dependencies" target="25" />
+      <module name="specification-im-parent" target="25" />
+      <module name="spring-im" target="25" />
+      <module name="spring-im-autoconfigure" target="25" />
+      <module name="spring-im-component-dependencies" target="25" />
+      <module name="spring-im-component-parent" target="25" />
+      <module name="spring-im-component-starters" target="25" />
+      <module name="spring-im-core" target="25" />
+      <module name="spring-im-dependencies" target="25" />
+      <module name="spring-im-parent" target="25" />
+      <module name="spring-im-starter" target="25" />
+      <module name="spring-im-starters" target="25" />
+      <module name="talk-dependencies" target="25" />
+      <module name="talk-parent" target="25" />
+    </bytecodeTargetLevel>
   </component>
 </project>

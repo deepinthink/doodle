@@ -11,5 +11,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>chess-lobby-server</module>
+    <module>chess-login-server</module>
   </modules>
 </project>

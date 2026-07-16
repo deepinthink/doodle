@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a340270-de39-4001-96aa-4e870dd57736" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../.github/workflows/ci-maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.github/workflows/ci-maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-login-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/specification-service-login/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-lobby-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-lobby-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-game-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-game-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,10 +37,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3GZa7eRGhKeRlpQpS3z3gYeDzrH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,17 +50,65 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.LoginServerApplication (1).executor": "Debug",
+    "Spring Boot.LoginServerApplication.executor": "Debug",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/GH-23/add-initializr-toolkit",
+    "git-widget-placeholder": "feature/GH-25/add-spring-game-login-service",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tingyanshen/GitHub/deepinthink/deepinthink-doodle/tools/initializr/java/doodle-initializr/pom.xml",
+    "last_opened_file_path": "/home/tingyanshen/GitHub/deepinthink/deepinthink-doodle/templates/idle/java/doodle-spring-game-idle/idle-servers",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.433832"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers" />
+      <recent name="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers" />
+      <recent name="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service" />
+      <recent name="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters" />
+      <recent name="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LoginServerApplication (1)">
+    <configuration name="LoginServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="idle-login-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.deepinthink.doodle.spring.game.idle.login.server.single.LoginServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deepinthink.doodle.spring.game.idle.login.server.single.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="chess-login-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.deepinthink.doodle.spring.game.chess.login.server.single.LoginServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deepinthink.doodle.spring.game.chess.login.server.single.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LoginServerApplication (1)" />
+        <item itemvalue="Spring Boot.LoginServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
