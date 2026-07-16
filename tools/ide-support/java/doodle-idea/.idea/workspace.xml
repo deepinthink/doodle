@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e0348a5-b6cc-44f2-bfbf-b640c13d4f82" name="Changes" comment="">
+    <list default="true" id="0a340270-de39-4001-96aa-4e870dd57736" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../../../.github/workflows/ci-maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.github/workflows/ci-maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../deepinthink-blink" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -24,11 +26,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0,
-  &quot;fromUser&quot;: false
-}</component>
-  <component name="ProjectId" id="3GWiNTmicF2a90Ou8WoQlrAgiTM" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GZa7eRGhKeRlpQpS3z3gYeDzrH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,9 +42,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/GH-17/add-benchmark-template",
+    "git-widget-placeholder": "feature/GH-23/add-initializr-toolkit",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tingyanshen/GitHub/deepinthink/deepinthink-blink/templates/talk/java/blink-spring-im-talk/pom.xml",
+    "last_opened_file_path": "/home/tingyanshen/GitHub/deepinthink/deepinthink-doodle/tools/initializr/java/doodle-initializr/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.433832"
@@ -58,11 +60,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e0348a5-b6cc-44f2-bfbf-b640c13d4f82" name="Changes" comment="" />
-      <created>1784093685743</created>
+      <changelist id="0a340270-de39-4001-96aa-4e870dd57736" name="Changes" comment="" />
+      <created>1784181378691</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1784093685743</updated>
+      <updated>1784181378691</updated>
     </task>
     <servers />
   </component>

@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-im" />
-        <module name="spring-im-autoconfigure" />
-        <module name="spring-im-starter" />
+        <module name="chess-lobby-server" />
+        <module name="spring-game-autoconfigure" />
+        <module name="spring-game-starter" />
+        <module name="spring-game" />
+        <module name="idle-game-server" />
       </profile>
     </annotationProcessing>
   </component>

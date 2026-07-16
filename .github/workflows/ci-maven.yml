@@ -58,3 +58,6 @@ jobs:
 
       - name: Build && Install doodle-benchmark
         run: cd templates/benchmark/java/doodle-benchmark && ./mvnw install -B
+
+      - name: Build && Install doodle-initializr
+        run: cd tools/initializr/java/doodle-initializr && ./mvnw install -B
