@@ -12,7 +12,10 @@
         <module name="idle-login-server" />
         <module name="idle-game-server" />
         <module name="spring-game-service-starter-login-server" />
+        <module name="chess-payment-server" />
         <module name="chess-login-server" />
+        <module name="idle-payment-server" />
+        <module name="spring-game-service-starter-payment-server" />
         <module name="spring-game" />
       </profile>
     </annotationProcessing>

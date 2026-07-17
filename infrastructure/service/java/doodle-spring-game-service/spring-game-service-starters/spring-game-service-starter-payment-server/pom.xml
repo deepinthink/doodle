@@ -7,7 +7,7 @@
     <version>2026.5.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>spring-game-service-starter-login-server</artifactId>
+  <artifactId>spring-game-service-starter-payment-server</artifactId>
   <properties>
     <spotless.license-header.file>${project.basedir}/../../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
