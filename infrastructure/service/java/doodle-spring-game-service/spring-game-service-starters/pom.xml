@@ -11,5 +11,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>spring-game-service-starter-login-server</module>
+    <module>spring-game-service-starter-payment-server</module>
   </modules>
 </project>

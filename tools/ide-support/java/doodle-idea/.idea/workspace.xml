@@ -5,21 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a340270-de39-4001-96aa-4e870dd57736" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-login/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-login-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/specification-service-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../'" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-payment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-payment-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/specification-service-payment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-payment-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-payment-server/src/main/java/org/deepinthink/doodle/spring/game/chess/payment/server/single/PaymentServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-payment-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-payment-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-payment-server/src/main/java/org/deepinthink/doodle/spring/game/idle/payment/server/single/PaymentServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-payment-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-dependencies/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-login-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-login-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-lobby-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-lobby-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-login-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/chess-login-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-game-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-game-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-login-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/idle-login-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +63,10 @@
     "Spring Boot.LoginServerApplication (1).executor": "Debug",
     "Spring Boot.LoginServerApplication.executor": "Debug",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/GH-25/add-spring-game-login-service",
+    "git-widget-placeholder": "feature/GH-27/add-spring-game-payment-service",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tingyanshen/GitHub/deepinthink/deepinthink-doodle/templates/idle/java/doodle-spring-game-idle/idle-servers",
+    "last_opened_file_path": "/home/tingyanshen/GitHub/deepinthink/deepinthink-doodle/templates/chess/java/doodle-spring-game-chess/chess-servers",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.433832"
@@ -66,11 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers" />
       <recent name="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers" />
-      <recent name="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service" />
+      <recent name="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers" />
       <recent name="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters" />
       <recent name="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service" />
+      <recent name="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.LoginServerApplication (1)">
@@ -112,8 +120,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
       </set>
     </attachedChunks>
   </component>

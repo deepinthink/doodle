@@ -2,16 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0          http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>idle-parent</artifactId>
+    <groupId>org.deepinthink.amoeba</groupId>
+    <artifactId>maven-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>../idle-parent/pom.xml</relativePath>
+    <relativePath/>
   </parent>
-  <artifactId>idle-servers</artifactId>
+  <groupId>org.deepinthink.doodle</groupId>
+  <artifactId>specification-service-payment</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>idle-game-server</module>
-    <module>idle-login-server</module>
-    <module>idle-payment-server</module>
-  </modules>
 </project>

@@ -12,5 +12,6 @@
   <modules>
     <module>chess-lobby-server</module>
     <module>chess-login-server</module>
+    <module>chess-payment-server</module>
   </modules>
 </project>
