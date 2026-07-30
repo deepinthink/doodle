@@ -5,14 +5,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../../../initializr/java/doodle-initializr/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../specification/component/java/doodle-specification-component/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../specification/game/java/doodle-specification-game/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-login/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/payment/java/doodle-spring-game-payment/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/benchmark/java/doodle-benchmark/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-login/pom.xml" />
       </list>
     </option>
   </component>
