@@ -8,13 +8,13 @@
     <relativePath/>
   </parent>
   <groupId>org.deepinthink.doodle</groupId>
-  <artifactId>spring-game-login-dependencies</artifactId>
+  <artifactId>spring-game-giftcode-dependencies</artifactId>
   <packaging>pom</packaging>
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-starter-login-server</artifactId>
+        <artifactId>spring-game-starter-giftcode-server</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

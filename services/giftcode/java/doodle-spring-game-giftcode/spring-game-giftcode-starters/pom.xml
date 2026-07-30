@@ -3,16 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>idle-parent</artifactId>
+    <artifactId>spring-game-giftcode-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>../idle-parent/pom.xml</relativePath>
+    <relativePath>../spring-game-giftcode-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>idle-servers</artifactId>
+  <artifactId>spring-game-giftcode-starters</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>idle-game-server</module>
-    <module>idle-giftcode-server</module>
-    <module>idle-login-server</module>
-    <module>idle-payment-server</module>
+    <module>spring-game-starter-giftcode-server</module>
   </modules>
 </project>
