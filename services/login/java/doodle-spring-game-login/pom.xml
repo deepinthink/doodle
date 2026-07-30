@@ -3,16 +3,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>spring-game-component-parent</artifactId>
+    <artifactId>spring-game-login-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>spring-game-component-parent/pom.xml</relativePath>
+    <relativePath>spring-game-login-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-spring-game-component</artifactId>
+  <artifactId>doodle-spring-game-login</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-component-dependencies</module>
-    <module>spring-game-component-parent</module>
-    <module>spring-game-component-starters</module>
+    <module>spring-game-login-dependencies</module>
+    <module>spring-game-login-parent</module>
+    <module>spring-game-login-starters</module>
   </modules>
   <properties>
     <spotless.license-header.file>${project.basedir}/../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
