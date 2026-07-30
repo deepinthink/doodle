@@ -8,18 +8,13 @@
     <relativePath/>
   </parent>
   <groupId>org.deepinthink.doodle</groupId>
-  <artifactId>spring-game-service-dependencies</artifactId>
+  <artifactId>spring-game-payment-dependencies</artifactId>
   <packaging>pom</packaging>
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-starter-login-server</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-starter-payment-server</artifactId>
+        <artifactId>spring-game-starter-payment-server</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

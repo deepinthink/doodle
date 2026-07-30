@@ -44,11 +44,11 @@ jobs:
       - name: Build && Install doodle-spring-game-login
         run: cd services/login/java/doodle-spring-game-login && ./mvnw install -B
 
+      - name: Build && Install doodle-spring-game-payment
+        run: cd services/payment/java/doodle-spring-game-payment && ./mvnw install -B
+
       - name: Build && Install doodle-specification-game
         run: cd specification/game/java/doodle-specification-game && ./mvnw install -B
-
-      - name: Build && Install doodle-spring-game-service
-        run: cd infrastructure/service/java/doodle-spring-game-service && ./mvnw install -B
 
       - name: Build && Install doodle-spring-game-chess
         run: cd templates/chess/java/doodle-spring-game-chess && ./mvnw install -B
