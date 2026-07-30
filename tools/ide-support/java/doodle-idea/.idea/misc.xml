@@ -4,26 +4,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../../../specification/component/java/doodle-specification-component/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../specification/game/java/doodle-specification-game/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../initializr/java/doodle-initializr/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/component/java/doodle-specification-component/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/game/java/doodle-specification-game/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/benchmark/java/doodle-benchmark/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../initializr/java/doodle-initializr/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-login/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/spring-game-starters/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-login-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters/spring-game-service-starter-payment-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../templates/benchmark/java/doodle-benchmark/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="25" project-jdk-type="JavaSDK">

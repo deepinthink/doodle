@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a340270-de39-4001-96aa-4e870dd57736" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../.github/workflows/ci-maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.github/workflows/ci-maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/spring-game-component-dependencies/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/spring-game-component-parent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../infrastructure/component/java/doodle-spring-game-component/spring-game-component-starters/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-parent/pom.xml" afterDir="false" />
+    <list default="true" id="3bc32775-37ed-437d-b31a-d35cc04d893a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +26,9 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1,
-  &quot;fromUser&quot;: false
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="3GZa7eRGhKeRlpQpS3z3gYeDzrH" />
+  <component name="ProjectId" id="3HE9Y9wsQaabAfcjdp2A0KKBNK7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,11 +37,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.LoginServerApplication (1).executor": "Debug",
-    "Spring Boot.LoginServerApplication.executor": "Debug",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "feature/GH-29/refactor-spring-game-login-service",
     "kotlin-language-version-configured": "true",
@@ -63,51 +49,6 @@
     "project.structure.side.proportion": "0.433832"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/chess-servers" />
-      <recent name="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/idle-servers" />
-      <recent name="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service/spring-game-service-starters" />
-      <recent name="$PROJECT_DIR$/../../../../infrastructure/service/java/doodle-spring-game-service" />
-      <recent name="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.LoginServerApplication (1)">
-    <configuration name="LoginServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="idle-login-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.deepinthink.doodle.spring.game.idle.login.server.single.LoginServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.deepinthink.doodle.spring.game.idle.login.server.single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="chess-login-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.deepinthink.doodle.spring.game.chess.login.server.single.LoginServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.deepinthink.doodle.spring.game.chess.login.server.single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.LoginServerApplication (1)" />
-        <item itemvalue="Spring Boot.LoginServerApplication" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -118,11 +59,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a340270-de39-4001-96aa-4e870dd57736" name="Changes" comment="" />
-      <created>1784181378691</created>
+      <changelist id="3bc32775-37ed-437d-b31a-d35cc04d893a" name="Changes" comment="" />
+      <created>1785422405519</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1784181378691</updated>
+      <updated>1785422405519</updated>
     </task>
     <servers />
   </component>

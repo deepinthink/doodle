@@ -18,8 +18,5 @@
         <module name="spring-game" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="doodle-benchmark" target="25" />
-    </bytecodeTargetLevel>
   </component>
 </project>
