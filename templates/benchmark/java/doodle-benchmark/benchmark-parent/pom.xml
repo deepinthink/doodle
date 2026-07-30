@@ -40,7 +40,7 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-loigin-dependencies</artifactId>
+        <artifactId>spring-game-login-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
