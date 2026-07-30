@@ -8,11 +8,11 @@
     <relativePath/>
   </parent>
   <groupId>org.deepinthink.doodle</groupId>
-  <artifactId>benchmark-parent</artifactId>
+  <artifactId>spring-game-giftcode-parent</artifactId>
   <packaging>pom</packaging>
   <properties>
     <amoeba.version>2026.5.0-SNAPSHOT</amoeba.version>
-    <doodle.version>${project.version}</doodle.version>
+    <doodle.version>2026.5.0-SNAPSHOT</doodle.version>
     <spotless.license-header.file>${project.basedir}/../../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
   </properties>
   <dependencyManagement>
@@ -41,49 +41,10 @@
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-giftcode-dependencies</artifactId>
-        <version>${doodle.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-login-dependencies</artifactId>
-        <version>${doodle.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-       <dependency>
-        <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-payment-dependencies</artifactId>
-        <version>${doodle.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>benchmark-dependencies</artifactId>
-        <version>${doodle.version}</version>
+        <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>${spring-boot.version}</version>
-          <executions>
-            <execution>
-              <goals>
-                <goal>repackage</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 </project>
