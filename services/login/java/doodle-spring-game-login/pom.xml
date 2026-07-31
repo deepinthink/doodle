@@ -10,6 +10,7 @@
   <artifactId>doodle-spring-game-login</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-login-admin</module>
     <module>spring-game-login-dependencies</module>
     <module>spring-game-login-parent</module>
     <module>spring-game-login-starters</module>

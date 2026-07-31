@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: chess-admin-vaadin
+
+amoeba:
+  vaadin:
+    admin:
+      header:
+        title: Chess Admin
+      login:
+        title: Chess Admin
+        description: Chess Admin Website
+      security:
+        users:
+          - username: USER
+            password: password
+            authorities:
+              - ROLE_USER
+

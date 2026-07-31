@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: idle-admin-vaadin
+
+amoeba:
+  vaadin:
+    admin:
+      header:
+        title: Idle Admin
+      login:
+        title: Idle Admin
+        description: Idle Admin Website
+      security:
+        users:
+          - username: USER
+            password: password
+            authorities:
+              - ROLE_USER
+
