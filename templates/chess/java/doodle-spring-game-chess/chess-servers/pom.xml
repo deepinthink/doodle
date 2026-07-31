@@ -13,6 +13,9 @@
     <module>chess-giftcode-server</module>
     <module>chess-lobby-server</module>
     <module>chess-login-server</module>
+    <module>chess-mail-server</module>
+    <module>chess-notice-server</module>
     <module>chess-payment-server</module>
+    <module>chess-role-server</module>
   </modules>
 </project>

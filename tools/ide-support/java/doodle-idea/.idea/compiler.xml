@@ -8,17 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chess-lobby-server" />
         <module name="chess-giftcode-server" />
+        <module name="idle-role-server" />
+        <module name="idle-mail-server" />
         <module name="spring-game-starter-giftcode-server" />
         <module name="idle-payment-server" />
+        <module name="spring-game-starter-mail-server" />
+        <module name="spring-game-starter-role-server" />
         <module name="idle-giftcode-server" />
         <module name="spring-game-starter-payment-server" />
+        <module name="spring-game-starter-notice-server" />
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter" />
         <module name="idle-login-server" />
+        <module name="chess-mail-server" />
+        <module name="chess-role-server" />
         <module name="spring-game-starter-login-server" />
         <module name="idle-game-server" />
+        <module name="chess-notice-server" />
         <module name="chess-payment-server" />
         <module name="chess-login-server" />
+        <module name="idle-notice-server" />
         <module name="spring-game" />
       </profile>
     </annotationProcessing>

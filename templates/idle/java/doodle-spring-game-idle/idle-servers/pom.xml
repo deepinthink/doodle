@@ -13,6 +13,9 @@
     <module>idle-game-server</module>
     <module>idle-giftcode-server</module>
     <module>idle-login-server</module>
+    <module>idle-mail-server</module>
+    <module>idle-notice-server</module>
     <module>idle-payment-server</module>
+    <module>idle-role-server</module>
   </modules>
 </project>
