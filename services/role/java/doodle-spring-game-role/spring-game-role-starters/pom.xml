@@ -9,4 +9,7 @@
   </parent>
   <artifactId>spring-game-role-starters</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-starter-role-server</module>
+  </modules>
 </project>

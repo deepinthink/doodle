@@ -9,4 +9,7 @@
   </parent>
   <artifactId>spring-game-notice-starters</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-starter-notice-server</module>
+  </modules>
 </project>
