@@ -3,19 +3,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>specification-service-parent</artifactId>
+    <artifactId>spring-game-mail-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>specification-service-parent/pom.xml</relativePath>
+    <relativePath>spring-game-mail-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-specification-service</artifactId>
+  <artifactId>doodle-spring-game-mail</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>specification-service-dependencies</module>
-    <module>specification-service-giftcode</module>
-    <module>specification-service-login</module>
-    <module>specification-service-mail</module>
-    <module>specification-service-parent</module>
-    <module>specification-service-payment</module>
+    <module>spring-game-mail-dependencies</module>
+    <module>spring-game-mail-parent</module>
+    <module>spring-game-mail-starters</module>
   </modules>
   <properties>
     <spotless.license-header.file>${project.basedir}/../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
