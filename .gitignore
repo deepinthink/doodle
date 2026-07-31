@@ -9,3 +9,6 @@ target/
 *.iml
 !tools/ide-support/java/doodle-idea/.idea
 !tools/ide-support/java/doodle-idea/*.iml
+
+# Vaadin
+frontend

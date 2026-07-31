@@ -14,6 +14,16 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-login-admin-vaadin</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-starter-login-admin-vaadin</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-starter-login-server</artifactId>
         <version>${project.version}</version>
       </dependency>
