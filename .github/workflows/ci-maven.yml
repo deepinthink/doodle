@@ -53,6 +53,9 @@ jobs:
       - name: Build && Install doodle-spring-game-payment
         run: cd services/payment/java/doodle-spring-game-payment && ./mvnw install -B
 
+      - name: Build && Install doodle-spring-game-role
+        run: cd services/role/java/doodle-spring-game-role && ./mvnw install -B
+
       - name: Build && Install doodle-specification-game
         run: cd specification/game/java/doodle-specification-game && ./mvnw install -B
 
