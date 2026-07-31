@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/../../../../services/giftcode/java/doodle-spring-game-giftcode/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../services/mail/java/doodle-spring-game-mail/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../services/role/java/doodle-spring-game-role/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/notice/java/doodle-spring-game-notice/pom.xml" />
       </list>
     </option>
   </component>
