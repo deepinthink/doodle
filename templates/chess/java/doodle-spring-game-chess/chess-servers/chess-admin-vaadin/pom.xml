@@ -25,6 +25,10 @@
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>spring-game-starter-mail-admin-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
       <artifactId>spring-game-starter-payment-admin-vaadin</artifactId>
     </dependency>
     <dependency>
