@@ -10,6 +10,7 @@
   <artifactId>doodle-spring-game-giftcode</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-giftcode-admin</module>
     <module>spring-game-giftcode-dependencies</module>
     <module>spring-game-giftcode-parent</module>
     <module>spring-game-giftcode-starters</module>
