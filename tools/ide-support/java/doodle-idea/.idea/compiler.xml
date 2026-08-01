@@ -15,6 +15,7 @@
         <module name="spring-game-starter-mail-server" />
         <module name="spring-game-starter-role-server" />
         <module name="idle-giftcode-server" />
+        <module name="spring-game-giftcode-admin-vaadin" />
         <module name="spring-game-starter-payment-server" />
         <module name="spring-game-autoconfigure" />
         <module name="idle-game-server" />
@@ -25,6 +26,7 @@
         <module name="spring-game-payment-admin-vaadin" />
         <module name="idle-role-server" />
         <module name="idle-mail-server" />
+        <module name="spring-game-starter-giftcode-admin-vaadin" />
         <module name="spring-game-starter-notice-server" />
         <module name="spring-game-starter" />
         <module name="idle-login-server" />
