@@ -10,6 +10,7 @@
   <artifactId>doodle-spring-game-role</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-role-admin</module>
     <module>spring-game-role-dependencies</module>
     <module>spring-game-role-parent</module>
     <module>spring-game-role-starters</module>

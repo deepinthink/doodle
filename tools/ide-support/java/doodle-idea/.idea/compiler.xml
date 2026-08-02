@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chess-lobby-server" />
+        <module name="spring-game-starter-role-admin-vaadin" />
         <module name="chess-giftcode-server" />
+        <module name="spring-game-role-admin-vaadin" />
         <module name="spring-game-starter-login-admin-vaadin" />
         <module name="spring-game-starter-giftcode-server" />
         <module name="spring-game-starter-payment-admin-vaadin" />
