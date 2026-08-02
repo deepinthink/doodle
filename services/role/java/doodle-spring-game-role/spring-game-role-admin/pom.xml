@@ -7,10 +7,9 @@
     <version>2026.5.0-SNAPSHOT</version>
     <relativePath>../spring-game-role-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>spring-game-role-starters</artifactId>
+  <artifactId>spring-game-role-admin</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-starter-role-admin-vaadin</module>
-    <module>spring-game-starter-role-server</module>
+    <module>spring-game-role-admin-vaadin</module>
   </modules>
 </project>

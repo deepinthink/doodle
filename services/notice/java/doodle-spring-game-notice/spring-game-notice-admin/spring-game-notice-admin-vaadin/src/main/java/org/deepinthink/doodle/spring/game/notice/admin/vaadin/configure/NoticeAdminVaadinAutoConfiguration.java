@@ -15,7 +15,21 @@
  */
 package org.deepinthink.doodle.spring.game.notice.admin.vaadin.configure;
 
+import com.vaadin.flow.component.sidenav.SideNavItem;
+import org.deepinthink.amoeba.spring.boot.vaadin.EnableVaadin;
+import org.deepinthink.amoeba.spring.boot.vaadin.admin.views.VaadinAdminSideNavItemSupplier;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Bean;
 
 @AutoConfiguration
-public class NoticeAdminVaadinAutoConfiguration {}
+@EnableVaadin(NoticeAdminVaadinProperties.PREFIX_VIEWS)
+@EnableConfigurationProperties(NoticeAdminVaadinProperties.class)
+public class NoticeAdminVaadinAutoConfiguration {
+
+  @Bean
+  public VaadinAdminSideNavItemSupplier noticeAdminVaadinSideNavView(
+      NoticeAdminVaadinProperties properties) {
+    return (context) -> new SideNavItem(properties.getLabel());
+  }
+}
