@@ -7,10 +7,9 @@
     <version>2026.5.0-SNAPSHOT</version>
     <relativePath>../spring-game-notice-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>spring-game-notice-starters</artifactId>
+  <artifactId>spring-game-notice-admin</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-starter-notice-admin-vaadin</module>
-    <module>spring-game-starter-notice-server</module>
+    <module>spring-game-notice-admin-vaadin</module>
   </modules>
 </project>

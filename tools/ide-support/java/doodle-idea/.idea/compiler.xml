@@ -11,6 +11,7 @@
         <module name="spring-game-starter-login-admin-vaadin" />
         <module name="spring-game-starter-giftcode-server" />
         <module name="spring-game-starter-payment-admin-vaadin" />
+        <module name="spring-game-starter-notice-admin-vaadin" />
         <module name="idle-payment-server" />
         <module name="spring-game-starter-mail-server" />
         <module name="spring-game-starter-role-server" />
@@ -39,6 +40,7 @@
         <module name="chess-login-server" />
         <module name="idle-notice-server" />
         <module name="spring-game" />
+        <module name="spring-game-notice-admin-vaadin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
