@@ -32,6 +32,21 @@ jobs:
       - name: Build && Install amoeba-spring-boot
         run: cd deepinthink/amoeba/infrastructure/framework/java/amoeba-spring-boot && ./mvnw install -B
 
+      - name: Build && Install amoeba-spring-boot-admin
+        run: cd deepinthink/amoeba/services/admin/java/amoeba-spring-boot-admin && ./mvnw install -B
+
+      - name: Build && Install amoeba-spring-boot-config
+        run: cd deepinthink/amoeba/components/config/java/amoeba-spring-boot-config && ./mvnw install -B
+
+      - name: Build && Install amoeba-spring-boot-job
+        run: cd deepinthink/amoeba/components/job/java/amoeba-spring-boot-job && ./mvnw install -B
+
+      - name: Build && Install amoeba-spring-boot-pipeline
+        run: cd deepinthink/amoeba/infrastructure/framework/java/amoeba-spring-boot-pipeline && ./mvnw install -B
+
+      - name: Build && Install amoeba-spring-boot-rbac
+        run: cd deepinthink/amoeba/services/rbac/java/amoeba-spring-boot-rbac && ./mvnw install -B
+
       - name: Build && Install doodle-spring-game
         run: cd infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
 
