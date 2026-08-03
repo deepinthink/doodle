@@ -21,4 +21,4 @@ jobs:
         uses: deepinthink/amoeba/.github/actions/setup-amoeba/java@main
 
       - name: Setup deepinthink/doodle
-        uses: ./.github/actions/setup-doodle/java@main
+        uses: ./.github/actions/setup-doodle/java
