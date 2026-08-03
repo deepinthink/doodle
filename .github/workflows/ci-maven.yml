@@ -32,6 +32,18 @@ jobs:
       - name: Build && Install amoeba-spring-boot
         run: cd deepinthink/amoeba/infrastructure/framework/java/amoeba-spring-boot && ./mvnw install -B
 
+      - name: Build && Install amoeba-specification-benchmark
+        run: cd deepinthink/amoeba/specification/benchmark/java/amoeba-specification-benchmark && ./mvnw install -B
+
+      - name: Build && Install amoeba-specification-component
+        run: cd deepinthink/amoeba/specification/component/java/amoeba-specification-component && ./mvnw install -B
+
+      - name: Build && Install amoeba-specification-pipeline
+        run: cd deepinthink/amoeba/specification/pipeline/java/amoeba-specification-pipeline && ./mvnw install -B
+
+      - name: Build && Install amoeba-specification-service
+        run: cd deepinthink/amoeba/specification/service/java/amoeba-specification-service && ./mvnw install -B
+
       - name: Build && Install amoeba-spring-boot-admin
         run: cd deepinthink/amoeba/services/admin/java/amoeba-spring-boot-admin && ./mvnw install -B
 
