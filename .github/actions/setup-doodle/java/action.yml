@@ -1,0 +1,66 @@
+name: Setup Doodle
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout deepinthink/doodle
+      uses: actions/checkout@v4
+      with:
+        repository: deepinthink/doodle
+        path: deepinthink/doodle
+
+    - name: Build && Install doodle-spring-game
+      shell: bash
+      run: cd deepinthink/doodle/infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
+
+    - name: Build && Install doodle-specification-component
+      shell: bash
+      run: cd deepinthink/doodle/specification/component/java/doodle-specification-component && ./mvnw install -B
+
+    - name: Build && Install doodle-specification-service
+      shell: bash
+      run: cd deepinthink/doodle/specification/service/java/doodle-specification-service && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-giftcode
+      shell: bash
+      run: cd deepinthink/doodle/services/giftcode/java/doodle-spring-game-giftcode && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-login
+      shell: bash
+      run: cd deepinthink/doodle/services/login/java/doodle-spring-game-login && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-mail
+      shell: bash
+      run: cd deepinthink/doodle/services/mail/java/doodle-spring-game-mail && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-notice
+      shell: bash
+      run: cd deepinthink/doodle/services/notice/java/doodle-spring-game-notice && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-payment
+      shell: bash
+      run: cd deepinthink/doodle/services/payment/java/doodle-spring-game-payment && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-role
+      shell: bash
+      run: cd deepinthink/doodle/services/role/java/doodle-spring-game-role && ./mvnw install -B
+
+    - name: Build && Install doodle-specification-game
+      shell: bash
+      run: cd deepinthink/doodle/specification/game/java/doodle-specification-game && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-chess
+      shell: bash
+      run: cd deepinthink/doodle/templates/chess/java/doodle-spring-game-chess && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-idle
+      shell: bash
+      run: cd deepinthink/doodle/templates/idle/java/doodle-spring-game-idle && ./mvnw install -B
+
+    - name: Build && Install doodle-benchmark
+      shell: bash
+      run: cd deepinthink/doodle/templates/benchmark/java/doodle-benchmark && ./mvnw install -B
+
+    - name: Build && Install doodle-initializr
+      shell: bash
+      run: cd deepinthink/doodle/tools/initializr/java/doodle-initializr && ./mvnw install -B
