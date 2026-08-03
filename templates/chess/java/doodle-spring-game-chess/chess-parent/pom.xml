@@ -32,6 +32,41 @@
         <scope>import</scope>
       </dependency>
       <dependency>
+        <groupId>org.deepinthink.amoeba</groupId>
+        <artifactId>spring-boot-admin-dependencies</artifactId>
+        <version>${amoeba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.amoeba</groupId>
+        <artifactId>spring-boot-config-dependencies</artifactId>
+        <version>${amoeba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.amoeba</groupId>
+        <artifactId>spring-boot-job-dependencies</artifactId>
+        <version>${amoeba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.amoeba</groupId>
+        <artifactId>spring-boot-pipeline-dependencies</artifactId>
+        <version>${amoeba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.amoeba</groupId>
+        <artifactId>spring-boot-rbac-dependencies</artifactId>
+        <version>${amoeba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-dependencies</artifactId>
         <version>${doodle.version}</version>
