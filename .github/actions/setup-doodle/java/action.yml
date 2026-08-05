@@ -36,6 +36,10 @@ runs:
       shell: bash
       run: cd deepinthink/doodle/specification/service/java/doodle-specification-service && ./mvnw install -B
 
+    - name: Build && Install doodle-spring-game-sdk-login
+      shell: bash
+      run: cd deepinthink/doodle/sdks/login/java/doodle-spring-game-sdk-login && ./mvnw install -B
+
     - name: Build && Install doodle-spring-game-giftcode
       shell: bash
       run: cd deepinthink/doodle/services/giftcode/java/doodle-spring-game-giftcode && ./mvnw install -B

@@ -30,6 +30,7 @@
         <module name="spring-game-payment-admin-vaadin" />
         <module name="idle-role-server" />
         <module name="idle-mail-server" />
+        <module name="spring-game-starter-sdk-login-server" />
         <module name="spring-game-starter-mail-admin-vaadin" />
         <module name="spring-game-starter-giftcode-admin-vaadin" />
         <module name="spring-game-starter-notice-server" />
@@ -46,7 +47,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="doodle-spring-game-login-sdk" target="25" />
+      <module name="spring-game-login-sdk-dependencies" target="25" />
+      <module name="spring-game-login-sdk-parent" target="25" />
+      <module name="spring-game-login-sdk-starters" target="25" />
+      <module name="spring-game-login-starters" target="25" />
       <module name="spring-game-mail-starters (1)" target="25" />
+      <module name="spring-game-starter-login-sdk-server" target="25" />
     </bytecodeTargetLevel>
   </component>
 </project>
