@@ -1,5 +1,11 @@
 name: Setup Doodle
 
+inputs:
+  ref:
+    description: 'The ref to checkout'
+    required: false
+    default: 'main'
+
 runs:
   using: "composite"
   steps:
@@ -8,7 +14,7 @@ runs:
       with:
         repository: deepinthink/doodle
         path: deepinthink/doodle
-        ref: ${{ github.head_ref || github.ref_name }}
+        ref: ${{ inputs.ref }}
 
     - name: Build && Install doodle-spring-game
       shell: bash
