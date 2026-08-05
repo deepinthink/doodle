@@ -23,4 +23,4 @@ jobs:
       - name: Setup deepinthink/doodle
         uses: ./.github/actions/setup-doodle/java
         with:
-          ref: ${{ github.head_ref || github.ref_name }}
+          ref: feature/GH-57/add-specification-sdk
