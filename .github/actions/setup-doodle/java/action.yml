@@ -17,6 +17,14 @@ runs:
       shell: bash
       run: cd deepinthink/doodle/specification/component/java/doodle-specification-component && ./mvnw install -B
 
+    - name: Build && Install doodle-specification-game
+      shell: bash
+      run: cd deepinthink/doodle/specification/game/java/doodle-specification-game && ./mvnw install -B
+
+    - name: Build && Install doodle-specification-sdk
+      shell: bash
+      run: cd deepinthink/doodle/specification/sdk/java/doodle-specification-sdk && ./mvnw install -B
+
     - name: Build && Install doodle-specification-service
       shell: bash
       run: cd deepinthink/doodle/specification/service/java/doodle-specification-service && ./mvnw install -B
