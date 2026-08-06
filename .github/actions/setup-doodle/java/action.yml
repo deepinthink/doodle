@@ -40,29 +40,29 @@ runs:
       shell: bash
       run: cd deepinthink/doodle/sdks/login/java/doodle-spring-game-sdk-login && ./mvnw install -B
 
-    - name: Build && Install doodle-spring-game-giftcode
+    - name: Build && Install doodle-spring-game-service-giftcode
       shell: bash
-      run: cd deepinthink/doodle/services/giftcode/java/doodle-spring-game-giftcode && ./mvnw install -B
+      run: cd deepinthink/doodle/services/giftcode/java/doodle-spring-game-service-giftcode && ./mvnw install -B
 
-    - name: Build && Install doodle-spring-game-login
+    - name: Build && Install doodle-spring-game-service-login
       shell: bash
-      run: cd deepinthink/doodle/services/login/java/doodle-spring-game-login && ./mvnw install -B
+      run: cd deepinthink/doodle/services/login/java/doodle-spring-game-service-login && ./mvnw install -B
 
-    - name: Build && Install doodle-spring-game-mail
+    - name: Build && Install doodle-spring-game-service-mail
       shell: bash
-      run: cd deepinthink/doodle/services/mail/java/doodle-spring-game-mail && ./mvnw install -B
+      run: cd deepinthink/doodle/services/mail/java/doodle-spring-game-service-mail && ./mvnw install -B
 
-    - name: Build && Install doodle-spring-game-notice
+    - name: Build && Install doodle-spring-game-service-notice
       shell: bash
-      run: cd deepinthink/doodle/services/notice/java/doodle-spring-game-notice && ./mvnw install -B
+      run: cd deepinthink/doodle/services/notice/java/doodle-spring-game-service-notice && ./mvnw install -B
 
-    - name: Build && Install doodle-spring-game-payment
+    - name: Build && Install doodle-spring-game-service-payment
       shell: bash
-      run: cd deepinthink/doodle/services/payment/java/doodle-spring-game-payment && ./mvnw install -B
+      run: cd deepinthink/doodle/services/payment/java/doodle-spring-game-service-payment && ./mvnw install -B
 
-    - name: Build && Install doodle-spring-game-role
+    - name: Build && Install doodle-spring-game-service-role
       shell: bash
-      run: cd deepinthink/doodle/services/role/java/doodle-spring-game-role && ./mvnw install -B
+      run: cd deepinthink/doodle/services/role/java/doodle-spring-game-service-role && ./mvnw install -B
 
     - name: Build && Install doodle-specification-game
       shell: bash

@@ -15,7 +15,7 @@
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-starter-giftcode-server</artifactId>
+      <artifactId>spring-game-starter-service-giftcode-server</artifactId>
     </dependency>
   </dependencies>
   <build>

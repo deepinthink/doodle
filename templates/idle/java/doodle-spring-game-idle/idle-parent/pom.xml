@@ -33,28 +33,28 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.amoeba</groupId>
-        <artifactId>spring-boot-admin-dependencies</artifactId>
+        <artifactId>spring-boot-service-admin-dependencies</artifactId>
         <version>${amoeba.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.amoeba</groupId>
-        <artifactId>spring-boot-config-dependencies</artifactId>
+        <artifactId>spring-boot-component-config-dependencies</artifactId>
         <version>${amoeba.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.amoeba</groupId>
-        <artifactId>spring-boot-job-dependencies</artifactId>
+        <artifactId>spring-boot-component-job-dependencies</artifactId>
         <version>${amoeba.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.amoeba</groupId>
-        <artifactId>spring-boot-rbac-dependencies</artifactId>
+        <artifactId>spring-boot-service-rbac-dependencies</artifactId>
         <version>${amoeba.version}</version>
         <type>pom</type>
         <scope>import</scope>
@@ -68,42 +68,42 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-giftcode-dependencies</artifactId>
+        <artifactId>spring-game-service-giftcode-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-login-dependencies</artifactId>
+        <artifactId>spring-game-service-login-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-mail-dependencies</artifactId>
+        <artifactId>spring-game-service-mail-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-notice-dependencies</artifactId>
+        <artifactId>spring-game-service-notice-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-payment-dependencies</artifactId>
+        <artifactId>spring-game-service-payment-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-role-dependencies</artifactId>
+        <artifactId>spring-game-service-role-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
         <scope>import</scope>

@@ -9,17 +9,17 @@
         <option value="$PROJECT_DIR$/../../../../specification/game/java/doodle-specification-game/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../specification/service/java/doodle-specification-service/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../infrastructure/framework/java/doodle-spring-game/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-login/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/payment/java/doodle-spring-game-payment/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/benchmark/java/doodle-benchmark/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/chess/java/doodle-spring-game-chess/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../templates/idle/java/doodle-spring-game-idle/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/giftcode/java/doodle-spring-game-giftcode/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/mail/java/doodle-spring-game-mail/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/role/java/doodle-spring-game-role/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../services/notice/java/doodle-spring-game-notice/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../specification/sdk/java/doodle-specification-sdk/pom.xml" />
         <option value="$PROJECT_DIR$/../../../../sdks/login/java/doodle-spring-game-sdk-login/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-service-login/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/giftcode/java/doodle-spring-game-service-giftcode/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/mail/java/doodle-spring-game-service-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/notice/java/doodle-spring-game-service-notice/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/payment/java/doodle-spring-game-service-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../services/role/java/doodle-spring-game-service-role/pom.xml" />
       </list>
     </option>
   </component>
