@@ -15,7 +15,7 @@
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-starter-notice-server</artifactId>
+      <artifactId>spring-game-starter-service-notice-server</artifactId>
     </dependency>
   </dependencies>
   <build>

@@ -15,7 +15,7 @@
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-starter-login-server</artifactId>
+      <artifactId>spring-game-starter-service-login-server</artifactId>
     </dependency>
   </dependencies>
   <build>

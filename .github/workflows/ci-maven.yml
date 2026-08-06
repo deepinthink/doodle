@@ -38,23 +38,23 @@ jobs:
       - name: Build && Install doodle-spring-game-sdk-login
         run: cd sdks/login/java/doodle-spring-game-sdk-login && ./mvnw install -B
 
-      - name: Build && Install doodle-spring-game-giftcode
-        run: cd services/giftcode/java/doodle-spring-game-giftcode && ./mvnw install -B
+      - name: Build && Install doodle-spring-game-service-giftcode
+        run: cd services/giftcode/java/doodle-spring-game-service-giftcode && ./mvnw install -B
 
-      - name: Build && Install doodle-spring-game-login
-        run: cd services/login/java/doodle-spring-game-login && ./mvnw install -B
+      - name: Build && Install doodle-spring-game-service-login
+        run: cd services/login/java/doodle-spring-game-service-login && ./mvnw install -B
 
-      - name: Build && Install doodle-spring-game-mail
-        run: cd services/mail/java/doodle-spring-game-mail && ./mvnw install -B
+      - name: Build && Install doodle-spring-game-service-mail
+        run: cd services/mail/java/doodle-spring-game-service-mail && ./mvnw install -B
 
-      - name: Build && Install doodle-spring-game-notice
-        run: cd services/notice/java/doodle-spring-game-notice && ./mvnw install -B
+      - name: Build && Install doodle-spring-game-service-notice
+        run: cd services/notice/java/doodle-spring-game-service-notice && ./mvnw install -B
 
-      - name: Build && Install doodle-spring-game-payment
-        run: cd services/payment/java/doodle-spring-game-payment && ./mvnw install -B
+      - name: Build && Install doodle-spring-game-service-payment
+        run: cd services/payment/java/doodle-spring-game-service-payment && ./mvnw install -B
 
-      - name: Build && Install doodle-spring-game-role
-        run: cd services/role/java/doodle-spring-game-role && ./mvnw install -B
+      - name: Build && Install doodle-spring-game-service-role
+        run: cd services/role/java/doodle-spring-game-service-role && ./mvnw install -B
 
       - name: Build && Install doodle-specification-game
         run: cd specification/game/java/doodle-specification-game && ./mvnw install -B
