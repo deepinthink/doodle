@@ -10,8 +10,8 @@
   <artifactId>doodle-spring-game-service-notice</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-notice-admin</module>
     <module>spring-game-service-notice-dependencies</module>
+    <module>spring-game-service-notice-modules</module>
     <module>spring-game-service-notice-parent</module>
     <module>spring-game-service-notice-starters</module>
   </modules>

@@ -10,8 +10,8 @@
   <artifactId>doodle-spring-game-service-mail</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-mail-admin</module>
     <module>spring-game-service-mail-dependencies</module>
+    <module>spring-game-service-mail-modules</module>
     <module>spring-game-service-mail-parent</module>
     <module>spring-game-service-mail-starters</module>
   </modules>

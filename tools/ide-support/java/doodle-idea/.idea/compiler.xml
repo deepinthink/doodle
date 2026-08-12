@@ -89,6 +89,12 @@
       <module name="spring-game-role-dependencies" target="25" />
       <module name="spring-game-role-parent" target="25" />
       <module name="spring-game-role-starters" target="25" />
+      <module name="spring-game-service-giftcode-admin" target="25" />
+      <module name="spring-game-service-login-admin" target="25" />
+      <module name="spring-game-service-mail-admin" target="25" />
+      <module name="spring-game-service-notice-admin" target="25" />
+      <module name="spring-game-service-payment-admin" target="25" />
+      <module name="spring-game-service-role-admin" target="25" />
       <module name="spring-game-starter-giftcode-admin-vaadin" target="25" />
       <module name="spring-game-starter-giftcode-server" target="25" />
       <module name="spring-game-starter-login-admin-vaadin" target="25" />

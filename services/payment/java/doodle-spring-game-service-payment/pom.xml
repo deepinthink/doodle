@@ -10,8 +10,8 @@
   <artifactId>doodle-spring-game-service-payment</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-payment-admin</module>
     <module>spring-game-service-payment-dependencies</module>
+    <module>spring-game-service-payment-modules</module>
     <module>spring-game-service-payment-parent</module>
     <module>spring-game-service-payment-starters</module>
   </modules>

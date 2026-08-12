@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>spring-game-service-giftcode-parent</artifactId>
+    <artifactId>spring-game-service-role-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>../spring-game-service-giftcode-parent/pom.xml</relativePath>
+    <relativePath>../spring-game-service-role-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>spring-game-service-giftcode-admin</artifactId>
+  <artifactId>spring-game-service-role-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-giftcode-admin-vaadin</module>
+    <module>spring-game-service-role-admin-vaadin</module>
   </modules>
 </project>

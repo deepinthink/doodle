@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/doodle-idea.iml" filepath="$PROJECT_DIR$/doodle-idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../services/giftcode/java/doodle-spring-game-service-giftcode/spring-game-service-giftcode-admin/spring-game-service-giftcode-admin.iml" filepath="$PROJECT_DIR$/../../../../services/giftcode/java/doodle-spring-game-service-giftcode/spring-game-service-giftcode-admin/spring-game-service-giftcode-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-service-login/spring-game-service-login-admin/spring-game-service-login-admin.iml" filepath="$PROJECT_DIR$/../../../../services/login/java/doodle-spring-game-service-login/spring-game-service-login-admin/spring-game-service-login-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../services/mail/java/doodle-spring-game-service-mail/spring-game-service-mail-admin/spring-game-service-mail-admin.iml" filepath="$PROJECT_DIR$/../../../../services/mail/java/doodle-spring-game-service-mail/spring-game-service-mail-admin/spring-game-service-mail-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../services/notice/java/doodle-spring-game-service-notice/spring-game-service-notice-admin/spring-game-service-notice-admin.iml" filepath="$PROJECT_DIR$/../../../../services/notice/java/doodle-spring-game-service-notice/spring-game-service-notice-admin/spring-game-service-notice-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../services/payment/java/doodle-spring-game-service-payment/spring-game-service-payment-admin/spring-game-service-payment-admin.iml" filepath="$PROJECT_DIR$/../../../../services/payment/java/doodle-spring-game-service-payment/spring-game-service-payment-admin/spring-game-service-payment-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../services/role/java/doodle-spring-game-service-role/spring-game-service-role-admin/spring-game-service-role-admin.iml" filepath="$PROJECT_DIR$/../../../../services/role/java/doodle-spring-game-service-role/spring-game-service-role-admin/spring-game-service-role-admin.iml" />
     </modules>
   </component>
 </project>

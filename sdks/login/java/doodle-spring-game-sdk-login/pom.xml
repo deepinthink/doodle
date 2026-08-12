@@ -11,6 +11,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>spring-game-sdk-login-dependencies</module>
+    <module>spring-game-sdk-login-modules</module>
     <module>spring-game-sdk-login-parent</module>
     <module>spring-game-sdk-login-starters</module>
   </modules>
