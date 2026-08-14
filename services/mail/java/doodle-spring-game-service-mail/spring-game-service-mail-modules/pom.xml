@@ -10,6 +10,9 @@
   <artifactId>spring-game-service-mail-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-service-mail-admin-server</module>
     <module>spring-game-service-mail-admin-vaadin</module>
+    <module>spring-game-service-mail-client</module>
+    <module>spring-game-service-mail-server</module>
   </modules>
 </project>

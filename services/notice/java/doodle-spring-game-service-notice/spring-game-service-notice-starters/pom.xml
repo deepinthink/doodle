@@ -10,7 +10,9 @@
   <artifactId>spring-game-service-notice-starters</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-starter-service-notice-admin-server</module>
     <module>spring-game-starter-service-notice-admin-vaadin</module>
+    <module>spring-game-starter-service-notice-client</module>
     <module>spring-game-starter-service-notice-server</module>
   </modules>
 </project>

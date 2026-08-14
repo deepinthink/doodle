@@ -16,5 +16,9 @@
       <groupId>org.deepinthink.doodle</groupId>
       <artifactId>spring-game-starter</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>spring-game-service-mail-server</artifactId>
+    </dependency>
   </dependencies>
 </project>

@@ -10,6 +10,9 @@
   <artifactId>spring-game-service-role-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-service-role-admin-server</module>
     <module>spring-game-service-role-admin-vaadin</module>
+    <module>spring-game-service-role-client</module>
+    <module>spring-game-service-role-server</module>
   </modules>
 </project>

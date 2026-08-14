@@ -10,6 +10,9 @@
   <artifactId>spring-game-service-payment-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-service-payment-admin-server</module>
     <module>spring-game-service-payment-admin-vaadin</module>
+    <module>spring-game-service-payment-client</module>
+    <module>spring-game-service-payment-server</module>
   </modules>
 </project>

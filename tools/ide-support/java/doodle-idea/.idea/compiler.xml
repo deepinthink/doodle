@@ -6,45 +6,75 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chess-lobby-server" />
-        <module name="chess-giftcode-server" />
+        <module name="spring-game-starter-service-mail-admin-server" />
         <module name="spring-game-starter-service-notice-server" />
-        <module name="spring-game-service-login-admin-vaadin" />
         <module name="spring-game-starter-sdk-payment-server" />
+        <module name="spring-game-service-login-client" />
         <module name="spring-game-starter-service-login-admin-vaadin" />
         <module name="spring-game-starter-service-giftcode-server" />
+        <module name="spring-game-service-notice-client" />
         <module name="idle-payment-server" />
+        <module name="spring-game-service-giftcode-admin-server" />
+        <module name="spring-game-service-login-server" />
         <module name="idle-giftcode-server" />
-        <module name="spring-game-starter-service-payment-admin-vaadin" />
+        <module name="spring-game-starter-service-mail-client" />
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter-service-mail-admin-vaadin" />
+        <module name="spring-game-starter-service-giftcode-client" />
+        <module name="spring-game-service-giftcode-server" />
+        <module name="spring-game-service-role-server" />
+        <module name="spring-game-starter-service-notice-client" />
+        <module name="idle-admin-vaadin" />
+        <module name="spring-game-starter-service-payment-client" />
+        <module name="spring-game-service-mail-client" />
+        <module name="spring-game-starter-service-payment-admin-server" />
+        <module name="spring-game-starter-service-login-server" />
+        <module name="spring-game-service-role-admin-vaadin" />
+        <module name="spring-game-service-giftcode-client" />
+        <module name="spring-game-service-notice-server" />
+        <module name="spring-game-service-payment-client" />
+        <module name="spring-game-starter-service-giftcode-admin-server" />
+        <module name="spring-game-starter" />
+        <module name="spring-game-starter-service-role-admin-server" />
+        <module name="idle-login-server" />
+        <module name="chess-mail-server" />
+        <module name="chess-role-server" />
+        <module name="spring-game-service-notice-admin-server" />
+        <module name="spring-game-service-login-admin-server" />
+        <module name="spring-game-starter-service-mail-server" />
+        <module name="spring-game-starter-service-role-server" />
+        <module name="idle-notice-server" />
+        <module name="spring-game" />
+        <module name="spring-game-service-giftcode-admin-vaadin" />
+        <module name="spring-game-service-role-client" />
+        <module name="chess-lobby-server" />
+        <module name="spring-game-starter-service-notice-admin-server" />
+        <module name="chess-giftcode-server" />
+        <module name="spring-game-service-login-admin-vaadin" />
+        <module name="spring-game-starter-service-payment-admin-vaadin" />
         <module name="spring-game-starter-service-notice-admin-vaadin" />
+        <module name="spring-game-starter-service-role-client" />
+        <module name="spring-game-service-mail-admin-server" />
         <module name="idle-game-server" />
         <module name="chess-notice-server" />
         <module name="chess-admin-vaadin" />
+        <module name="spring-game-service-payment-admin-server" />
+        <module name="spring-game-service-mail-server" />
         <module name="spring-game-service-mail-admin-vaadin" />
-        <module name="idle-admin-vaadin" />
+        <module name="spring-game-service-payment-server" />
         <module name="spring-game-starter-service-giftcode-admin-vaadin" />
         <module name="spring-game-service-payment-admin-vaadin" />
         <module name="idle-role-server" />
         <module name="idle-mail-server" />
         <module name="spring-game-starter-service-role-admin-vaadin" />
-        <module name="spring-game-starter-service-login-server" />
         <module name="spring-game-starter-sdk-login-server" />
         <module name="spring-game-service-notice-admin-vaadin" />
-        <module name="spring-game-service-role-admin-vaadin" />
-        <module name="spring-game-starter" />
-        <module name="idle-login-server" />
-        <module name="chess-mail-server" />
-        <module name="chess-role-server" />
+        <module name="spring-game-starter-service-login-admin-server" />
+        <module name="spring-game-starter-service-login-client" />
         <module name="spring-game-starter-service-payment-server" />
-        <module name="spring-game-starter-service-mail-server" />
-        <module name="spring-game-starter-service-role-server" />
         <module name="chess-payment-server" />
+        <module name="spring-game-service-role-admin-server" />
         <module name="chess-login-server" />
-        <module name="idle-notice-server" />
-        <module name="spring-game" />
-        <module name="spring-game-service-giftcode-admin-vaadin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -90,6 +120,9 @@
       <module name="spring-game-role-parent" target="25" />
       <module name="spring-game-role-starters" target="25" />
       <module name="spring-game-service-giftcode-admin" target="25" />
+      <module name="spring-game-service-giftcode-admin-server-core" target="25" />
+      <module name="spring-game-service-giftcode-admin-vaadin-core" target="25" />
+      <module name="spring-game-service-giftcode-server-core" target="25" />
       <module name="spring-game-service-login-admin" target="25" />
       <module name="spring-game-service-mail-admin" target="25" />
       <module name="spring-game-service-notice-admin" target="25" />
