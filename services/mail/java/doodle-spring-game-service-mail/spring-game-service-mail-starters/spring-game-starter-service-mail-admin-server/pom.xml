@@ -18,7 +18,7 @@
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-service-mail-admin-server</artifactId>
+      <artifactId>spring-game-service-mail-admin-server-core</artifactId>
     </dependency>
   </dependencies>
 </project>

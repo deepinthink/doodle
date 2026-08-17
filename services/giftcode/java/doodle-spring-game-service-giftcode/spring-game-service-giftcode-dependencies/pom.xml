@@ -14,22 +14,22 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-giftcode-admin-server</artifactId>
+        <artifactId>spring-game-service-giftcode-admin-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-giftcode-admin-vaadin</artifactId>
+        <artifactId>spring-game-service-giftcode-admin-vaadin-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-giftcode-client</artifactId>
+        <artifactId>spring-game-service-giftcode-client-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-giftcode-server</artifactId>
+        <artifactId>spring-game-service-giftcode-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

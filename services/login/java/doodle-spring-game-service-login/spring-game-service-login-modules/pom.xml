@@ -10,9 +10,9 @@
   <artifactId>spring-game-service-login-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-login-admin-server</module>
-    <module>spring-game-service-login-admin-vaadin</module>
-    <module>spring-game-service-login-client</module>
-    <module>spring-game-service-login-server</module>
+    <module>spring-game-service-login-admin-server-core</module>
+    <module>spring-game-service-login-admin-vaadin-core</module>
+    <module>spring-game-service-login-client-core</module>
+    <module>spring-game-service-login-server-core</module>
   </modules>
 </project>

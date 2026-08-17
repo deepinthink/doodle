@@ -14,22 +14,22 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-login-admin-server</artifactId>
+        <artifactId>spring-game-service-login-admin-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-login-admin-vaadin</artifactId>
+        <artifactId>spring-game-service-login-admin-vaadin-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-login-client</artifactId>
+        <artifactId>spring-game-service-login-client-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-login-server</artifactId>
+        <artifactId>spring-game-service-login-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

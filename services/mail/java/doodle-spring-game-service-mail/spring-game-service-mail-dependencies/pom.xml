@@ -14,22 +14,22 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-mail-admin-server</artifactId>
+        <artifactId>spring-game-service-mail-admin-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-mail-admin-vaadin</artifactId>
+        <artifactId>spring-game-service-mail-admin-vaadin-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-mail-client</artifactId>
+        <artifactId>spring-game-service-mail-client-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-mail-server</artifactId>
+        <artifactId>spring-game-service-mail-server-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
