@@ -18,7 +18,7 @@
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-service-role-server-core</artifactId>
+      <artifactId>spring-game-service-role-server</artifactId>
     </dependency>
   </dependencies>
 </project>

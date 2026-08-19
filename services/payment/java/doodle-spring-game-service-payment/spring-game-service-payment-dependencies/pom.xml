@@ -14,22 +14,22 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-payment-admin-server-core</artifactId>
+        <artifactId>spring-game-service-payment-admin-server</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-payment-admin-vaadin-core</artifactId>
+        <artifactId>spring-game-service-payment-admin-vaadin</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-payment-client-core</artifactId>
+        <artifactId>spring-game-service-payment-client</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
-        <artifactId>spring-game-service-payment-server-core</artifactId>
+        <artifactId>spring-game-service-payment-server</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

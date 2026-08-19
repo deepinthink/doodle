@@ -10,9 +10,9 @@
   <artifactId>spring-game-service-giftcode-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-giftcode-admin-server-core</module>
-    <module>spring-game-service-giftcode-admin-vaadin-core</module>
-    <module>spring-game-service-giftcode-client-core</module>
-    <module>spring-game-service-giftcode-server-core</module>
+    <module>spring-game-service-giftcode-admin-server</module>
+    <module>spring-game-service-giftcode-admin-vaadin</module>
+    <module>spring-game-service-giftcode-client</module>
+    <module>spring-game-service-giftcode-server</module>
   </modules>
 </project>

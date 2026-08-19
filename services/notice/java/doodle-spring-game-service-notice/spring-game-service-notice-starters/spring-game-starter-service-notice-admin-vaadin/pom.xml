@@ -18,7 +18,7 @@
     </dependency>
     <dependency>
       <groupId>org.deepinthink.doodle</groupId>
-      <artifactId>spring-game-service-notice-admin-vaadin-core</artifactId>
+      <artifactId>spring-game-service-notice-admin-vaadin</artifactId>
     </dependency>
   </dependencies>
 </project>

@@ -10,9 +10,9 @@
   <artifactId>spring-game-service-notice-modules</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>spring-game-service-notice-admin-server-core</module>
-    <module>spring-game-service-notice-admin-vaadin-core</module>
-    <module>spring-game-service-notice-client-core</module>
-    <module>spring-game-service-notice-server-core</module>
+    <module>spring-game-service-notice-admin-server</module>
+    <module>spring-game-service-notice-admin-vaadin</module>
+    <module>spring-game-service-notice-client</module>
+    <module>spring-game-service-notice-server</module>
   </modules>
 </project>
