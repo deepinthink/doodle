@@ -51,6 +51,7 @@
         <module name="spring-game-starter-service-notice-admin-server" />
         <module name="chess-giftcode-server" />
         <module name="spring-game-service-login-admin-vaadin" />
+        <module name="chess-admin-server" />
         <module name="spring-game-starter-service-payment-admin-vaadin" />
         <module name="spring-game-starter-service-notice-admin-vaadin" />
         <module name="spring-game-starter-service-role-client" />

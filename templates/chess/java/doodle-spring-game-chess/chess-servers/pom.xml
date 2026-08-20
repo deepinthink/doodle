@@ -11,6 +11,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>chess-admin-vaadin</module>
+    <module>chess-admin-server</module>
     <module>chess-giftcode-server</module>
     <module>chess-lobby-server</module>
     <module>chess-login-server</module>
