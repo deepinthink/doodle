@@ -16,9 +16,9 @@ runs:
         path: deepinthink/doodle
         ref: ${{ inputs.ref }}
 
-    - name: Build && Install doodle-spring-game
+    - name: Build && Install doodle-specification-bi
       shell: bash
-      run: cd deepinthink/doodle/infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
+      run: cd deepinthink/doodle/specification/bi/java/doodle-specification-bi && ./mvnw install -B
 
     - name: Build && Install doodle-specification-component
       shell: bash
@@ -35,6 +35,14 @@ runs:
     - name: Build && Install doodle-specification-service
       shell: bash
       run: cd deepinthink/doodle/specification/service/java/doodle-specification-service && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game
+      shell: bash
+      run: cd deepinthink/doodle/infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
+
+    - name: Build && Install doodle-spring-game-bi
+      shell: bash
+      run: cd deepinthink/doodle/infrastructure/bi/java/doodle-spring-game-bi && ./mvnw install -B
 
     - name: Build && Install doodle-spring-game-sdk-login
       shell: bash
