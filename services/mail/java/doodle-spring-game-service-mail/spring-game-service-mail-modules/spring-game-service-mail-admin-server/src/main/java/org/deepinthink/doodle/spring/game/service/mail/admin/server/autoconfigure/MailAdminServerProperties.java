@@ -13,24 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.service.notice.admin.vaadin.configure;
+package org.deepinthink.doodle.spring.game.service.mail.admin.server.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = NoticeAdminVaadinProperties.PREFIX)
-public class NoticeAdminVaadinProperties {
-  public static final String PREFIX = "doodle.service.notice.admin.vaadin";
-
-  public static final String PREFIX_VIEWS =
-      "org.deepinthink.doodle.spring.game.service.notice.admin.vaadin.views";
-
-  private String label = "Service::Notice";
-
-  public String getLabel() {
-    return label;
-  }
-
-  public void setLabel(String label) {
-    this.label = label;
-  }
+@ConfigurationProperties(prefix = MailAdminServerProperties.PREFIX)
+public class MailAdminServerProperties {
+  public static final String PREFIX = "doodle.service.mail.admin.server";
 }

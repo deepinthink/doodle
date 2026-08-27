@@ -1,1 +1,1 @@
-org.deepinthink.doodle.spring.game.service.role.admin.vaadin.autoconfigure.RoleAdminVaadinAutoConfiguration
+org.deepinthink.doodle.spring.game.service.role.server.autoconfigure.RoleServerAutoConfiguration

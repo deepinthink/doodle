@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.mail.client.autoconfigure;
+package org.deepinthink.doodle.spring.game.service.mail.admin.server.autoconfigure;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @AutoConfiguration
-@EnableConfigurationProperties(MailClientProperties.class)
-public class MailClientAutoConfiguration {}
+@EnableConfigurationProperties(MailAdminServerProperties.class)
+public class MailAdminServerAutoConfiguration {}

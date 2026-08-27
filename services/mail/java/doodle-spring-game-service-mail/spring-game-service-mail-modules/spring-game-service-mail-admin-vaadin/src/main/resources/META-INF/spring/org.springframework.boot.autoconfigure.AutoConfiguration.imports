@@ -1,1 +1,1 @@
-org.deepinthink.doodle.spring.game.mail.admin.vaadin.autoconfigure.MailAdminVaadinAutoConfiguration
+org.deepinthink.doodle.spring.game.service.mail.admin.vaadin.autoconfigure.MailAdminVaadinAutoConfiguration

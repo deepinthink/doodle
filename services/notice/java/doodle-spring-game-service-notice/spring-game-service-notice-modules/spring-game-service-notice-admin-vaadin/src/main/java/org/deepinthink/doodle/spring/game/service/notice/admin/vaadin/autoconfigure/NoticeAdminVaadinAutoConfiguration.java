@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.mail.admin.vaadin.autoconfigure;
+package org.deepinthink.doodle.spring.game.service.notice.admin.vaadin.autoconfigure;
 
 import com.vaadin.flow.component.sidenav.SideNavItem;
 import org.deepinthink.amoeba.spring.boot.vaadin.EnableVaadin;
@@ -23,13 +23,13 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 
 @AutoConfiguration
-@EnableVaadin(MailAdminVaadinProperties.PREFIX_VIEWS)
-@EnableConfigurationProperties({MailAdminVaadinProperties.class})
-public class MailAdminVaadinAutoConfiguration {
+@EnableVaadin(NoticeAdminVaadinProperties.PREFIX_VIEWS)
+@EnableConfigurationProperties(NoticeAdminVaadinProperties.class)
+public class NoticeAdminVaadinAutoConfiguration {
 
   @Bean
-  public VaadinAdminSideNavItemSupplier mailAdminVaadinSideNavView(
-      MailAdminVaadinProperties properties) {
+  public VaadinAdminSideNavItemSupplier noticeAdminVaadinSideNavView(
+      NoticeAdminVaadinProperties properties) {
     return (context) -> new SideNavItem(properties.getLabel());
   }
 }

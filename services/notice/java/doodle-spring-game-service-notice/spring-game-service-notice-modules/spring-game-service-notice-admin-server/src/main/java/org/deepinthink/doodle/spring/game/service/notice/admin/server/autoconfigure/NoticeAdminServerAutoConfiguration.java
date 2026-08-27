@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.service.notice.admin.server.configure;
+package org.deepinthink.doodle.spring.game.service.notice.admin.server.autoconfigure;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-@ConfigurationProperties(prefix = NoticeAdminServerProperties.PREFIX)
-public class NoticeAdminServerProperties {
-  public static final String PREFIX = "doodle.service.notice.admin.server";
-}
+@AutoConfiguration
+@EnableConfigurationProperties(NoticeAdminServerProperties.class)
+public class NoticeAdminServerAutoConfiguration {}

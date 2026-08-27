@@ -1,1 +1,1 @@
-org.deepinthink.doodle.spring.game.mail.client.autoconfigure.MailClientAutoConfiguration
+org.deepinthink.doodle.spring.game.service.mail.client.autoconfigure.MailClientAutoConfiguration
