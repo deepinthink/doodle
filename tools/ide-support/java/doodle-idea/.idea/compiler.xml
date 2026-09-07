@@ -31,6 +31,7 @@
         <module name="spring-game-starter-service-login-server" />
         <module name="spring-game-service-role-admin-vaadin" />
         <module name="spring-game-service-giftcode-client" />
+        <module name="spring-game-starter-component-gateway-server" />
         <module name="spring-game-service-notice-server" />
         <module name="spring-game-service-payment-client" />
         <module name="spring-game-starter-service-giftcode-admin-server" />
