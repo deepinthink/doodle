@@ -61,6 +61,7 @@
         <module name="chess-admin-vaadin" />
         <module name="spring-game-service-payment-admin-server" />
         <module name="spring-game-service-mail-server" />
+        <module name="spring-game-starter-component-excel-server" />
         <module name="spring-game-service-mail-admin-vaadin" />
         <module name="spring-game-service-payment-server" />
         <module name="spring-game-starter-service-giftcode-admin-vaadin" />

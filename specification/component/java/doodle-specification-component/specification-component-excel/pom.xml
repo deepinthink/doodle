@@ -5,16 +5,8 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>specification-component-parent</artifactId>
     <version>2026.5.0-SNAPSHOT</version>
-    <relativePath>specification-component-parent/pom.xml</relativePath>
+    <relativePath>../specification-component-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-specification-component</artifactId>
+  <artifactId>specification-component-excel</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>specification-component-dependencies</module>
-    <module>specification-component-excel</module>
-    <module>specification-component-parent</module>
-  </modules>
-  <properties>
-    <spotless.license-header.file>${project.basedir}/../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
-  </properties>
 </project>

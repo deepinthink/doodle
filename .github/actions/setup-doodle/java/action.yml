@@ -44,6 +44,10 @@ runs:
       shell: bash
       run: cd deepinthink/doodle/infrastructure/bi/java/doodle-spring-game-bi && ./mvnw install -B
 
+    - name: Build && Install doodle-spring-game-component-excel
+      shell: bash
+      run: cd deepinthink/doodle/components/excel/java/doodle-spring-game-component-excel && ./mvnw install -B
+
     - name: Build && Install doodle-spring-game-sdk-login
       shell: bash
       run: cd deepinthink/doodle/sdks/login/java/doodle-spring-game-sdk-login && ./mvnw install -B
