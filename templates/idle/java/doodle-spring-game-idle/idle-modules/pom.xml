@@ -7,16 +7,6 @@
     <version>2026.5.0-SNAPSHOT</version>
     <relativePath>../idle-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>idle-servers</artifactId>
+  <artifactId>idle-modules</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>idle-admin-server</module>
-    <module>idle-admin-vaadin</module>
-    <module>idle-giftcode-server</module>
-    <module>idle-login-server</module>
-    <module>idle-mail-server</module>
-    <module>idle-notice-server</module>
-    <module>idle-payment-server</module>
-    <module>idle-role-server</module>
-  </modules>
 </project>

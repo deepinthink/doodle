@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.chess.lobby.server.single;
+package org.deepinthink.doodle.spring.game.idle.admin.server.single;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LobbyServerApplication {
+public class AdminServerApplication {
   public static void main(String[] args) {
-    SpringApplication.run(LobbyServerApplication.class, args);
+    SpringApplication.run(AdminServerApplication.class, args);
   }
 }

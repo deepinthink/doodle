@@ -11,9 +11,10 @@
   <packaging>pom</packaging>
   <modules>
     <module>chess-dependencies</module>
-    <module>chess-lobby</module>
+    <module>chess-modules</module>
     <module>chess-parent</module>
     <module>chess-servers</module>
+    <module>chess-starters</module>
   </modules>
   <properties>
     <spotless.license-header.file>${project.basedir}/../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>

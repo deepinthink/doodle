@@ -27,6 +27,7 @@
         <module name="idle-admin-vaadin" />
         <module name="spring-game-starter-service-payment-client" />
         <module name="spring-game-service-mail-client" />
+        <module name="idle-admin-server" />
         <module name="spring-game-starter-service-payment-admin-server" />
         <module name="spring-game-starter-service-login-server" />
         <module name="spring-game-service-role-admin-vaadin" />
@@ -48,7 +49,6 @@
         <module name="spring-game" />
         <module name="spring-game-service-giftcode-admin-vaadin" />
         <module name="spring-game-service-role-client" />
-        <module name="chess-lobby-server" />
         <module name="spring-game-starter-service-notice-admin-server" />
         <module name="chess-giftcode-server" />
         <module name="spring-game-service-login-admin-vaadin" />
@@ -57,7 +57,6 @@
         <module name="spring-game-starter-service-notice-admin-vaadin" />
         <module name="spring-game-starter-service-role-client" />
         <module name="spring-game-service-mail-admin-server" />
-        <module name="idle-game-server" />
         <module name="chess-notice-server" />
         <module name="chess-admin-vaadin" />
         <module name="spring-game-service-payment-admin-server" />
@@ -81,6 +80,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chess-lobby-server" target="25" />
+      <module name="idle-admin-vaadin (1)" target="25" />
+      <module name="idle-game-server" target="25" />
       <module name="spring-game-service-giftcode-core" target="25" />
     </bytecodeTargetLevel>
   </component>
