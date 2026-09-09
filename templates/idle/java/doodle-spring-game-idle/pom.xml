@@ -11,9 +11,10 @@
   <packaging>pom</packaging>
   <modules>
     <module>idle-dependencies</module>
-    <module>idle-game</module>
+    <module>idle-modules</module>
     <module>idle-parent</module>
     <module>idle-servers</module>
+    <module>idle-starters</module>
   </modules>
   <properties>
     <spotless.license-header.file>${project.basedir}/../../../../tools/configs/checkstyle/license-header.txt</spotless.license-header.file>
