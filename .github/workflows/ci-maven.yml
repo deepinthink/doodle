@@ -38,6 +38,9 @@ jobs:
       - name: Build && Install doodle-spring-game
         run: cd infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
 
+      - name: Build && Install doodle-spring-game-benchmark
+        run: cd infrastructure/benchmark/java/doodle-spring-game-benchmark && ./mvnw install -B
+
       - name: Build && Install doodle-spring-game-bi
         run: cd infrastructure/bi/java/doodle-spring-game-bi && ./mvnw install -B
 
@@ -70,9 +73,6 @@ jobs:
 
       - name: Build && Install doodle-spring-game-service-role
         run: cd services/role/java/doodle-spring-game-service-role && ./mvnw install -B
-
-      - name: Build && Install doodle-specification-game
-        run: cd specification/game/java/doodle-specification-game && ./mvnw install -B
 
       - name: Build && Install doodle-spring-game-chess
         run: cd templates/chess/java/doodle-spring-game-chess && ./mvnw install -B
