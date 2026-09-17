@@ -40,10 +40,13 @@ runs:
       shell: bash
       run: cd deepinthink/doodle/infrastructure/framework/java/doodle-spring-game && ./mvnw install -B
 
+    - name: Build && Install doodle-spring-game-benchmark
+      shell: bash
+      run: cd deepinthink/doodle/infrastructure/benchmark/java/doodle-spring-game-benchmark && ./mvnw install -B
+
     - name: Build && Install doodle-spring-game-bi
       shell: bash
       run: cd deepinthink/doodle/infrastructure/bi/java/doodle-spring-game-bi && ./mvnw install -B
-
 
     - name: Build && Install doodle-spring-game-component-gateway
       shell: bash
@@ -84,10 +87,6 @@ runs:
     - name: Build && Install doodle-spring-game-service-role
       shell: bash
       run: cd deepinthink/doodle/services/role/java/doodle-spring-game-service-role && ./mvnw install -B
-
-    - name: Build && Install doodle-specification-game
-      shell: bash
-      run: cd deepinthink/doodle/specification/game/java/doodle-specification-game && ./mvnw install -B
 
     - name: Build && Install doodle-spring-game-chess
       shell: bash
