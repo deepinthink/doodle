@@ -10,6 +10,9 @@
   <artifactId>spring-game-component-excel-starters</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-starter-component-excel-admin-server</module>
+    <module>spring-game-starter-component-excel-admin-vaadin</module>
+    <module>spring-game-starter-component-excel-client</module>
     <module>spring-game-starter-component-excel-server</module>
   </modules>
 </project>
