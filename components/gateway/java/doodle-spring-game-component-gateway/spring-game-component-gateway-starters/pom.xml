@@ -10,6 +10,9 @@
   <artifactId>spring-game-component-gateway-starters</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-starter-component-gateway-admin-server</module>
+    <module>spring-game-starter-component-gateway-admin-vaadin</module>
+    <module>spring-game-starter-component-gateway-client</module>
     <module>spring-game-starter-component-gateway-server</module>
   </modules>
 </project>
