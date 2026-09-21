@@ -9,4 +9,10 @@
   </parent>
   <artifactId>spring-game-component-gateway-modules</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-component-gateway-admin-server</module>
+    <module>spring-game-component-gateway-admin-vaadin</module>
+    <module>spring-game-component-gateway-client</module>
+    <module>spring-game-component-gateway-server</module>
+  </modules>
 </project>

@@ -21,12 +21,16 @@
         <module name="spring-game-autoconfigure" />
         <module name="spring-game-starter-service-giftcode-client" />
         <module name="spring-game-starter-service-mail-admin-vaadin" />
+        <module name="spring-game-starter-component-gateway-admin-vaadin" />
         <module name="spring-game-service-giftcode-server" />
+        <module name="spring-game-starter-component-gateway-client" />
         <module name="spring-game-service-role-server" />
+        <module name="spring-game-component-gateway-client" />
         <module name="spring-game-starter-service-notice-client" />
         <module name="idle-admin-vaadin" />
         <module name="spring-game-starter-service-payment-client" />
         <module name="spring-game-service-mail-client" />
+        <module name="spring-game-component-gateway-server" />
         <module name="idle-admin-server" />
         <module name="spring-game-starter-service-payment-admin-server" />
         <module name="spring-game-starter-service-login-server" />
@@ -45,6 +49,7 @@
         <module name="spring-game-service-login-admin-server" />
         <module name="spring-game-starter-service-mail-server" />
         <module name="spring-game-starter-service-role-server" />
+        <module name="spring-game-component-gateway-admin-server" />
         <module name="idle-notice-server" />
         <module name="spring-game" />
         <module name="spring-game-service-giftcode-admin-vaadin" />
@@ -53,6 +58,7 @@
         <module name="chess-giftcode-server" />
         <module name="spring-game-service-login-admin-vaadin" />
         <module name="chess-admin-server" />
+        <module name="spring-game-component-gateway-admin-vaadin" />
         <module name="spring-game-starter-service-payment-admin-vaadin" />
         <module name="spring-game-starter-service-notice-admin-vaadin" />
         <module name="spring-game-starter-service-role-client" />
@@ -72,6 +78,7 @@
         <module name="spring-game-starter-sdk-login-server" />
         <module name="spring-game-starter-service-login-admin-server" />
         <module name="spring-game-service-notice-admin-vaadin" />
+        <module name="spring-game-starter-component-gateway-admin-server" />
         <module name="spring-game-starter-service-login-client" />
         <module name="spring-game-starter-service-payment-server" />
         <module name="spring-game-service-role-admin-server" />
