@@ -9,4 +9,10 @@
   </parent>
   <artifactId>spring-game-component-excel-modules</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-component-excel-admin-server</module>
+    <module>spring-game-component-excel-admin-vaadin</module>
+    <module>spring-game-component-excel-client</module>
+    <module>spring-game-component-excel-server</module>
+  </modules>
 </project>

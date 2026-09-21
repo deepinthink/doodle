@@ -14,6 +14,41 @@
     <dependencies>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-excel-admin-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-excel-admin-vaadin</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-excel-client</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-excel-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-starter-component-excel-admin-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-starter-component-excel-admin-vaadin</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-starter-component-excel-client</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-starter-component-excel-server</artifactId>
         <version>${project.version}</version>
       </dependency>
