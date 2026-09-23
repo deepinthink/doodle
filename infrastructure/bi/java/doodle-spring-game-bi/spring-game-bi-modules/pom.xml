@@ -9,4 +9,10 @@
   </parent>
   <artifactId>spring-game-bi-modules</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-bi-admin-server</module>
+    <module>spring-game-bi-admin-vaadin</module>
+    <module>spring-game-bi-client</module>
+    <module>spring-game-bi-server</module>
+  </modules>
 </project>

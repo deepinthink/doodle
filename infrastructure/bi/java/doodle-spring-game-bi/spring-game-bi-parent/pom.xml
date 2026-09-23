@@ -38,7 +38,7 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-        <dependency>
+      <dependency>
         <groupId>org.deepinthink.doodle</groupId>
         <artifactId>spring-game-bi-dependencies</artifactId>
         <version>${project.version}</version>
