@@ -58,6 +58,7 @@
         <module name="spring-game-starter-bi-admin-server" />
         <module name="spring-game-component-bi-admin-vaadin" />
         <module name="spring-game-starter-service-payment-server" />
+        <module name="chess-admin-vaadin-core" />
         <module name="spring-game-starter-service-notice-server" />
         <module name="spring-game-service-notice-client" />
         <module name="idle-payment-server" />
@@ -74,6 +75,7 @@
         <module name="spring-game-component-gateway-server" />
         <module name="spring-game-starter-service-login-server" />
         <module name="spring-game-service-role-admin-vaadin" />
+        <module name="chess-starter-admin-server" />
         <module name="spring-game-bi-admin-vaadin" />
         <module name="spring-game-starter-service-giftcode-admin-server" />
         <module name="spring-game-starter-bi-server" />
@@ -93,6 +95,7 @@
         <module name="spring-game-service-mail-server" />
         <module name="spring-game-starter-component-excel-server" />
         <module name="spring-game-service-mail-admin-vaadin" />
+        <module name="chess-admin-server-core" />
         <module name="spring-game-starter-service-giftcode-admin-vaadin" />
         <module name="spring-game-service-payment-admin-vaadin" />
         <module name="idle-role-server" />
@@ -100,6 +103,7 @@
         <module name="spring-game-starter-sdk-login-server" />
         <module name="spring-game-starter-component-excel-admin-vaadin" />
         <module name="spring-game-starter-service-login-client" />
+        <module name="chess-starter-admin-vaadin" />
         <module name="spring-game-service-role-admin-server" />
         <module name="chess-payment-server" />
         <module name="chess-login-server" />
