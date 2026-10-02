@@ -9,4 +9,8 @@
   </parent>
   <artifactId>chess-starters</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>chess-starter-admin-server</module>
+    <module>chess-starter-admin-vaadin</module>
+  </modules>
 </project>
