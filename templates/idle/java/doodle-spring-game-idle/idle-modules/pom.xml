@@ -9,4 +9,8 @@
   </parent>
   <artifactId>idle-modules</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>idle-admin-server-core</module>
+    <module>idle-admin-vaadin-core</module>
+  </modules>
 </project>

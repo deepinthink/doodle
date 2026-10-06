@@ -25,6 +25,7 @@
         <module name="idle-admin-server" />
         <module name="spring-game-starter-service-payment-admin-server" />
         <module name="spring-game-starter-component-excel-client" />
+        <module name="idle-starter-admin-server" />
         <module name="spring-game-starter-bi-client" />
         <module name="spring-game-starter-component-gateway-server" />
         <module name="spring-game-service-giftcode-client" />
@@ -68,6 +69,7 @@
         <module name="idle-giftcode-server" />
         <module name="spring-game-starter-service-giftcode-client" />
         <module name="spring-game-starter-service-mail-admin-vaadin" />
+        <module name="idle-starter-admin-vaadin" />
         <module name="spring-game-starter-component-gateway-admin-vaadin" />
         <module name="spring-game-service-giftcode-server" />
         <module name="spring-game-starter-component-gateway-client" />
@@ -76,9 +78,11 @@
         <module name="spring-game-starter-service-login-server" />
         <module name="spring-game-service-role-admin-vaadin" />
         <module name="chess-starter-admin-server" />
+        <module name="idle-admin-vaadin-core" />
         <module name="spring-game-bi-admin-vaadin" />
         <module name="spring-game-starter-service-giftcode-admin-server" />
         <module name="spring-game-starter-bi-server" />
+        <module name="idle-admin-server-core" />
         <module name="spring-game-component-excel-server" />
         <module name="spring-game-service-login-admin-server" />
         <module name="spring-game-component-bi-server" />
