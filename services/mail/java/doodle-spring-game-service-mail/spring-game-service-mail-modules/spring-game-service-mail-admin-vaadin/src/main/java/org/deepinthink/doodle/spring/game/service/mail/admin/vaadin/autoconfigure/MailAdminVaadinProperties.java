@@ -24,7 +24,7 @@ public class MailAdminVaadinProperties {
   public static final String PREFIX_VIEWS =
       "org.deepinthink.doodle.spring.game.mail.admin.vaadin.views";
 
-  private String label = "Mail";
+  private String label = "Service::Mail";
 
   public String getLabel() {
     return label;

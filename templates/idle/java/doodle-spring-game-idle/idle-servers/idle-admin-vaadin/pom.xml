@@ -58,6 +58,14 @@
       <artifactId>spring-game-starter-service-role-admin-vaadin</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>spring-game-starter-component-excel-admin-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>spring-game-starter-component-gateway-admin-vaadin</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-dev</artifactId>
       <optional>true</optional>

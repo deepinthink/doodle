@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Bean;
 public class BiAdminVaadinAutoConfiguration {
 
   @Bean
-  public VaadinAdminSideNavItemSupplier loginAdminVaadinSideNavView(
+  public VaadinAdminSideNavItemSupplier biAdminVaadinSideNavView(
       BiAdminVaadinProperties properties) {
     return (context) -> new SideNavItem(properties.getLabel());
   }
