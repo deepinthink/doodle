@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.chess.admin.vaadin.autoconfigure;
+package org.deepinthink.doodle.spring.game.idle.admin.vaadin.autoconfigure;
 
 import com.vaadin.flow.component.sidenav.SideNavItem;
 import org.deepinthink.amoeba.spring.boot.vaadin.EnableVaadin;
@@ -23,13 +23,13 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 
 @AutoConfiguration
-@EnableVaadin(ChessAdminVaadinProperties.PREFIX_VIEWS)
-@EnableConfigurationProperties(ChessAdminVaadinProperties.class)
-public class ChessAdminVaadinAutoConfiguration {
+@EnableVaadin(IdleAdminVaadinProperties.PREFIX_VIEWS)
+@EnableConfigurationProperties(IdleAdminVaadinProperties.class)
+public class IdleAdminVaadinAutoConfiguration {
 
   @Bean
-  public VaadinAdminSideNavItemSupplier chessAdminVaadinSideNavView(
-      ChessAdminVaadinProperties properties) {
+  public VaadinAdminSideNavItemSupplier idleAdminVaadinSideNavView(
+      IdleAdminVaadinProperties properties) {
     return (context) -> new SideNavItem(properties.getLabel());
   }
 }
