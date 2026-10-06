@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Bean;
 public class GatewayAdminVaadinAutoConfiguration {
 
   @Bean
-  public VaadinAdminSideNavItemSupplier loginAdminVaadinSideNavView(
+  public VaadinAdminSideNavItemSupplier gatewayAdminVaadinSideNavView(
       GatewayAdminVaadinProperties properties) {
     return (context) -> new SideNavItem(properties.getLabel());
   }

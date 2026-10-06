@@ -61,6 +61,14 @@
       <groupId>org.deepinthink.doodle</groupId>
       <artifactId>spring-game-starter-service-role-admin-server</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>spring-game-starter-component-excel-admin-server</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>spring-game-starter-component-gateway-admin-server</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

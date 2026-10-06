@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Bean;
 public class ExcelAdminVaadinAutoConfiguration {
 
   @Bean
-  public VaadinAdminSideNavItemSupplier loginAdminVaadinSideNavView(
+  public VaadinAdminSideNavItemSupplier excelAdminVaadinSideNavView(
       ExcelAdminVaadinProperties properties) {
     return (context) -> new SideNavItem(properties.getLabel());
   }

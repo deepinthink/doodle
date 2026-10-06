@@ -117,6 +117,20 @@
       </dependency>
       <dependency>
         <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-excel-dependencies</artifactId>
+        <version>${doodle.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
+        <artifactId>spring-game-component-gateway-dependencies</artifactId>
+        <version>${doodle.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.doodle</groupId>
         <artifactId>chess-dependencies</artifactId>
         <version>${doodle.version}</version>
         <type>pom</type>
