@@ -9,4 +9,10 @@
   </parent>
   <artifactId>spring-game-sdk-payment-modules</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-sdk-payment-admin-server</module>
+    <module>spring-game-sdk-payment-admin-vaadin</module>
+    <module>spring-game-sdk-payment-client</module>
+    <module>spring-game-sdk-payment-server</module>
+  </modules>
 </project>
