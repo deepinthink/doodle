@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-game-starter-service-mail-admin-server" />
         <module name="spring-game-starter-bi-admin-vaadin" />
+        <module name="spring-game-starter-sdk-login-admin-server" />
         <module name="spring-game-starter-sdk-payment-server" />
         <module name="spring-game-service-login-client" />
         <module name="spring-game-bi-server" />
@@ -39,9 +40,11 @@
         <module name="chess-role-server" />
         <module name="spring-game-starter-service-role-server" />
         <module name="spring-game-component-gateway-admin-server" />
+        <module name="spring-game-sdk-login-admin-server" />
         <module name="spring-game-component-bi-admin-server" />
         <module name="spring-game-starter-component-excel-admin-server" />
         <module name="spring-game-service-giftcode-admin-vaadin" />
+        <module name="spring-game-sdk-login-server" />
         <module name="spring-game-service-login-admin-vaadin" />
         <module name="chess-admin-server" />
         <module name="spring-game-component-gateway-admin-vaadin" />
@@ -61,6 +64,7 @@
         <module name="spring-game-starter-service-payment-server" />
         <module name="chess-admin-vaadin-core" />
         <module name="spring-game-starter-service-notice-server" />
+        <module name="spring-game-sdk-login-admin-vaadin" />
         <module name="spring-game-service-notice-client" />
         <module name="idle-payment-server" />
         <module name="spring-game-bi-client" />
@@ -74,6 +78,7 @@
         <module name="spring-game-service-giftcode-server" />
         <module name="spring-game-starter-component-gateway-client" />
         <module name="idle-admin-vaadin" />
+        <module name="spring-game-starter-sdk-login-client" />
         <module name="spring-game-component-gateway-server" />
         <module name="spring-game-starter-service-login-server" />
         <module name="spring-game-service-role-admin-vaadin" />
@@ -106,10 +111,12 @@
         <module name="spring-game-starter-service-role-admin-vaadin" />
         <module name="spring-game-starter-sdk-login-server" />
         <module name="spring-game-starter-component-excel-admin-vaadin" />
+        <module name="spring-game-starter-sdk-login-admin-vaadin" />
         <module name="spring-game-starter-service-login-client" />
         <module name="chess-starter-admin-vaadin" />
         <module name="spring-game-service-role-admin-server" />
         <module name="chess-payment-server" />
+        <module name="spring-game-sdk-login-client" />
         <module name="chess-login-server" />
       </profile>
     </annotationProcessing>
