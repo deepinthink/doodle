@@ -9,4 +9,10 @@
   </parent>
   <artifactId>spring-game-sdk-login-modules</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>spring-game-sdk-login-admin-server</module>
+    <module>spring-game-sdk-login-admin-vaadin</module>
+    <module>spring-game-sdk-login-client</module>
+    <module>spring-game-sdk-login-server</module>
+  </modules>
 </project>

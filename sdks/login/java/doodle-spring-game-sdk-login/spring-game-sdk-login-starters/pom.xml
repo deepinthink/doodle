@@ -10,6 +10,9 @@
   <artifactId>spring-game-sdk-login-starters</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>spring-game-starter-sdk-login-admin-server</module>
+    <module>spring-game-starter-sdk-login-admin-vaadin</module>
+    <module>spring-game-starter-sdk-login-client</module>
     <module>spring-game-starter-sdk-login-server</module>
   </modules>
 </project>
