@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.doodle.spring.game.component.gateway.server.autoconfigure;
+package org.deepinthink.doodle.spring.game.bi.server.autoconfigure;
 
-import org.springframework.boot.autoconfigure.AutoConfiguration;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@AutoConfiguration
-@EnableConfigurationProperties(GatewayServerProperties.class)
-public class GatewayServerAutoConfiguration {}
+@ConfigurationProperties(prefix = BiServerProperties.PREFIX)
+public class BiServerProperties {
+  public static final String PREFIX = "doodle.bi.server";
+}
